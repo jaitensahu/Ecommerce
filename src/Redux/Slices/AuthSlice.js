@@ -7,7 +7,6 @@ import {
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import firebase from "../../Firebase/Firebase";
 import { doc, getDoc, setDoc } from "firebase/firestore";
-// import { auth } from "../../Firebase/Firebase";
 import { db } from "../../Firebase/Firebase";
 
 const initialState = {
@@ -16,6 +15,7 @@ const initialState = {
 
 const auth = getAuth();
 
+/*----------------------------------- Auth Slice----------------------- */
 const AuthSlice = createSlice({
   name: "AuthSlice",
   initialState,
@@ -27,11 +27,10 @@ const AuthSlice = createSlice({
       })
       .addCase(signUpFunction.fulfilled, (state, action) => {
         state.status = "succeeded";
-        console.log(action.payload);
+        // console.log(action.payload);
+        state.currentUser = action.payload;
+        localStorage.setItem("currentUser", JSON.stringify(action.payload));
         if (Object.keys(action.payload).length != 0) {
-          state.currentUser = action.payload;
-          localStorage.setItem("currentUser", JSON.stringify(action.payload));
-
           if (getDataFromDataBase("USER", action.payload.email)) {
           } else if (Object.keys(action.payload).length > 0) {
             setDoc(doc(db, "USER", action.payload.email), {
@@ -49,10 +48,10 @@ const AuthSlice = createSlice({
   },
 });
 
+{/* ----------------- Async Thunk to handle asynchronous Task ----------- */}
 export const signUpFunction = createAsyncThunk(
   "auth/authenticate",
   async (data) => {
-    // console.log("called", data);
     let userCredential;
     try {
       if (data.action == "SIGNUP") {
@@ -80,6 +79,7 @@ export const signUpFunction = createAsyncThunk(
   }
 );
 
+/*----------------- Get Data From DataBase ----------------------*/
 async function getDataFromDataBase(user, email) {
   const docRef = doc(db, user, email);
   const docSnap = await getDoc(docRef);

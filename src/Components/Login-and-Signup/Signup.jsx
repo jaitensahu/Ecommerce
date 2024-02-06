@@ -12,6 +12,7 @@ import { signUpFunction } from "../../Redux/Slices/AuthSlice";
 
 
 const Signup = () => {
+  console.log("rendered signup");
   let dispatch = useDispatch();
   let emailRef = useRef();
   let passwordRef = useRef();

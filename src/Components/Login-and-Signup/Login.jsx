@@ -4,6 +4,7 @@ import {signUpFunction} from '../../Redux/Slices/AuthSlice'
 import { useDispatch } from "react-redux"
 
 const Login = () => {
+  console.log("rendered Login");
   const dispatch = useDispatch();
   let emailRef = useRef();
   let passwordRef = useRef();       

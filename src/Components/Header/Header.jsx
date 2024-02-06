@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { memo, useEffect } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
@@ -38,7 +38,7 @@ const Header = () => {
     (state) => state.headerSlice
   );
   let { currentUser } = useSelector((state) => state.AuthSlice);
-
+console.log("redered Header");
 // useEffect(() => {
 //   if (
 //     JSON.parse(localStorage.getItem("currentUser")) !== null &&
@@ -47,9 +47,9 @@ const Header = () => {
 //     dispatch(setCurrentUser(JSON.parse(localStorage.getItem("currentUser"))));
 //   }
 // }, []);
-
+// console.log(Object.keys(JSON.parse(localStorage.getItem("currentUser") || "{}")).length);
 useEffect(() => {
-  if (Object.keys(currentUser).length !== 0) {
+  if (Object.keys(currentUser).length !== 0 || Object.keys(JSON.parse(localStorage.getItem("currentUser") || "{}")).length) {
     dispatch(setIsLogin(true));
     navigateTo("/");
   } else {
@@ -166,14 +166,14 @@ useEffect(() => {
                       </div>
                     </div>
                   </Drawer>
-                  <button
+                  <Link to="/cart"
                     type="button"
                     className="relative rounded-full p-1 text-black hover:text-red-600 focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2 "
                   >
                     <span className="absolute -inset-1.5" />
                     <span className="sr-only">View notifications</span>
                     <ShoppingCartIcon className="h-6 w-6" aria-hidden="true" />
-                  </button>
+                  </Link>
                   {/* Profile dropdown */}
                   {isLogin ? (
                     <Menu as="div" className="relative ml-3">
@@ -367,4 +367,4 @@ useEffect(() => {
   );
 };
 
-export default Header;
+export default memo(Header);

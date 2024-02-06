@@ -8,6 +8,9 @@ import firebase from './Firebase/Firebase'
 
 import { Provider } from "react-redux";
 import { store } from "./Redux/Store/Store";
+import ProductDetailPage from "./Components/ProductDetailPage/ProductDetailPage";
+import ShoppingCart from "./Components/ShoppingCart/ShopingCart";
+
 
 function App() {
   let router = createBrowserRouter([
@@ -26,6 +29,14 @@ function App() {
         {
           path: "/Signup",
           element:<Signup />
+        },
+        {
+          path: "/product-details/:id",
+          element:<ProductDetailPage />
+        },
+        {
+          path:"/cart",
+          element:<ShoppingCart />
         }
       ],
     },

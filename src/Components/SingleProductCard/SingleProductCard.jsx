@@ -7,8 +7,12 @@ import Laptops from "../../assets/Product-JSON-File/Laptop.json";
 import Phones from "../../assets/Product-JSON-File/Phone.json";
 import watches from "../../assets/Product-JSON-File/Watch.json";
 import { Link } from "react-router-dom";
+import { addToCart } from "../../Redux/Slices/CartSlice";
+import { useDispatch } from "react-redux";
 
 const SingleProductCard = () => {
+  let dispatch = useDispatch();
+  console.log("rendered SingleProduct");
 //   const handleDragStart = (e) => e.preventDefault();
   const responsive = {
     0: { items: 1 },
@@ -20,31 +24,32 @@ const SingleProductCard = () => {
       category: "Laptops",
       JsonFile: Laptops,
     },
-    {
-      category: "Phones",
-      JsonFile: Phones,
-    },
-    {
-      category: "Watches",
-      JsonFile: watches,
-    },
-    {
-      category: "Accessories",
-      JsonFile: Accessories,
-    },
-    {
-      category: "Clothing",
-      JsonFile: Clothes,
-    },
+    // {
+    //   category: "Phones",
+    //   JsonFile: Phones,
+    // },
+    // {
+    //   category: "Watches",
+    //   JsonFile: watches,
+    // },
+    // {
+    //   category: "Accessories",
+    //   JsonFile: Accessories,
+    // },
+    // {
+    //   category: "Clothing",
+    //   JsonFile: Clothes,
+    // },
   ];
-  function addToCart() {
-    console.log("added");
+  function handleAddToCart(asin) {
+    console.log("added", asin);
+    dispatch(addToCart({ cartItem: 1, productId: asin }))
   }
   return (
     <>
-      {categories.map((ele) => {
+      {categories.map((ele,idx) => {
         return (
-          <div className="px-5 py-2 mt-10 " data-aos="fade-up">
+          <div key={"mm"+idx} className="px-5 py-2 mt-10 " data-aos="fade-up">
             <h1>{ele.category}</h1>
             <AliceCarousel
               mouseTracking
@@ -66,7 +71,7 @@ const SingleProductCard = () => {
                     id={prod.asin}
                     className="w-80 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
                   >
-                    <Link to="/product-details">
+                    <Link to={`/product-details/${prod.asin}`}>
                       <img
                         src={prod.image}
                         alt="Product"
@@ -90,7 +95,7 @@ const SingleProductCard = () => {
                           {prod.original_price}
                         </p>
                       </del>
-                      <div className="ml-auto" onClick={addToCart}>
+                      <div className="ml-auto" onClick={()=>handleAddToCart(prod.asin)}>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="20"
