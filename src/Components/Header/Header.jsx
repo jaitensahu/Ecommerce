@@ -31,68 +31,38 @@ const Header = () => {
     { name: "Wishlist", href: "#", current: false },
     { name: "Dark Mode", href: "#", current: false },
   ];
+  let { currentUser } = useSelector((state) => state.AuthSlice);
   let navigateTo = useNavigate();
   const params = window.location.pathname;
   const dispatch = useDispatch();
   const { isLogin, isDark, isOpen, isWishListOpen } = useSelector(
     (state) => state.headerSlice
+    
   );
-  let { currentUser } = useSelector((state) => state.AuthSlice);
-console.log("redered Header");
-// useEffect(() => {
-//   if (
-//     JSON.parse(localStorage.getItem("currentUser")) !== null &&
-//     Object.keys(JSON.parse(localStorage.getItem("currentUser"))).length !== 0
-//   ) {
-//     dispatch(setCurrentUser(JSON.parse(localStorage.getItem("currentUser"))));
-//   }
-// }, []);
-// console.log(Object.keys(JSON.parse(localStorage.getItem("currentUser") || "{}")).length);
-useEffect(() => {
-  if (Object.keys(currentUser).length !== 0 || Object.keys(JSON.parse(localStorage.getItem("currentUser") || "{}")).length) {
-    dispatch(setIsLogin(true));
-    navigateTo("/");
-  } else {
-    dispatch(setIsLogin(false));
-  }
-}, [currentUser]);
-
-  // useEffect(() => {
-    // const localUser = localStorage.getItem("currentUser");
-    // const isUserLoggedIn =
-    //   localUser && Object.keys(JSON.parse(localUser)).length > 0;
-    // console.log(isUserLoggedIn);
-
-    // // dispatch(setIsLogin(isUserLoggedIn));
-
-    // // Check if the user is not logged in and the current path is not the home ("/") or signup ("/signup") page
-    // if (!isUserLoggedIn && params !== "/" && params !== "/signup") {
-    //   console.log("to login");
-    //   navigateTo("/Login");-
-    // } else if (params === "/signup") {
-    //   // If the path is "/signup", navigate to the Signup page
-    //   console.log("to signup");
-    //   navigateTo("/signup");
-
-    // } else {
-    //   console.log("to dashboard");
-    //   // For all other cases, navigate to the home page
-    //   navigateTo("/");
-    //   if (Object.keys(JSON.parse(localUser)).length > 0) {
-    //     dispatch(setIsLogin(true));
-    //   } else {
-    //      dispatch(setIsLogin(false));
-    //   }
-    // }
 
 
-  // }, [currentUser, params, dispatch, navigateTo]);
+  useEffect(() => {
+    if (params != "/") {
+      navigateTo(params);
+    }
+    if (
+      Object.keys(currentUser).length !== 0 ||
+      Object.keys(JSON.parse(localStorage.getItem("currentUser") || "{}"))
+        .length
+    ) {
+      dispatch(setIsLogin(true));
+      navigateTo("/");
+    } else {
+      dispatch(setIsLogin(false));
+    }
+  }, [currentUser]);
 
   function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
   }
+  
   return (
-    <Disclosure as="nav" className="absolute top-0 z-10 w-screen">
+    <Disclosure as="nav" className=" z-10 w-screen">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -166,7 +136,8 @@ useEffect(() => {
                       </div>
                     </div>
                   </Drawer>
-                  <Link to="/cart"
+                  <Link
+                    to="/cart"
                     type="button"
                     className="relative rounded-full p-1 text-black hover:text-red-600 focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2 "
                   >

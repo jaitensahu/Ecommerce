@@ -1,10 +1,10 @@
-import React, { useRef } from "react";
+import React, { memo, useRef } from "react";
 import { Link } from "react-router-dom";
 import {signUpFunction} from '../../Redux/Slices/AuthSlice'
 import { useDispatch } from "react-redux"
 
 const Login = () => {
-  console.log("rendered Login");
+  console.log("rendering Loginpage...");
   const dispatch = useDispatch();
   let emailRef = useRef();
   let passwordRef = useRef();       
@@ -76,11 +76,9 @@ const Login = () => {
 
           <div>
             <button
-              // type="submit"
               className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               onClick={(e) => {
                 e.preventDefault();
-                // console.log("akhjs");
                  dispatch(
                   signUpFunction(
                     {
@@ -112,4 +110,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default memo(Login);

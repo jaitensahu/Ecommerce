@@ -19,10 +19,10 @@ const CategoryCard = () => {
     },
   ];
     return (
-      <div className="flex flex-wrap gap-5 px-5">
+      <div className="flex flex-wrap gap-5 px-5 py-[50px]">
             {categories.map((category,idx) => {
             return (
-              <div key={"abc"+idx} className=" relative min-w-[300px] w-[30%] h-[300px] overflow-hidden flex-1 rounded-md">
+              <div key={"abc"+idx} className=" cursor-pointer relative min-w-[300px] w-[30%] h-[300px] overflow-hidden flex-1 rounded-md">
                 <img className="w-full h-full scale-110 hover:scale-125 transition-all duration-[3000ms]" src={category.img} alt=""/>
                 <div className="absolute justify-center items-start top-[50%] left-[10px] flex flex-col gap-1 -translate-y-[50%] w-1/2">
                   <h3 className="text-4xl font-bold ">{category.category}</h3>

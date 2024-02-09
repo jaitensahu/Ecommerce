@@ -1,17 +1,26 @@
-import React from 'react'
+import React, { memo } from 'react'
 import Hero from './Hero'
 import CategoryCard from './CategoryCard'
 import SingleProductCard from '../SingleProductCard/SingleProductCard'
-import ShoppingCart from '../ShoppingCart/ShopingCart'
+import ShiftingCountdown from '../TimerComponent/TimerComponent'
+import CategoryList from './CategoryList'
 
 const Dashboard = () => {
   return (
     <div>
+      {/* <Example /> */}
+      {/* <SideMenuForFilter /> */}
       <Hero />
       <CategoryCard />
-      <SingleProductCard />
+      <ShiftingCountdown />
+      <div className="flex mt-10 max-w-[94%] mx-auto">
+        <CategoryList />
+        <div className="w-[85%] pt-[35px]">
+        <SingleProductCard />
+        </div>
+      </div>
     </div>
   )
 }
 
-export default Dashboard
+export default memo(Dashboard);

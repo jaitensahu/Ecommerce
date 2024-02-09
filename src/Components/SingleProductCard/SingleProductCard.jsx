@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import Accessories from "../../assets/Product-JSON-File/Accessories.json";
@@ -9,85 +9,90 @@ import watches from "../../assets/Product-JSON-File/Watch.json";
 import { Link } from "react-router-dom";
 import { addToCart } from "../../Redux/Slices/CartSlice";
 import { useDispatch } from "react-redux";
+import { Rating } from "@smastrom/react-rating";
+import '@smastrom/react-rating/style.css'
+import { Breathing, Image, Shimmer } from 'react-shimmer'
 
 const SingleProductCard = () => {
   let dispatch = useDispatch();
-  console.log("rendered SingleProduct");
-//   const handleDragStart = (e) => e.preventDefault();
+  console.log("rendering SingleProduct Component");
   const responsive = {
     0: { items: 1 },
-    568: { items: 2 },
-    1024: { items: 4 },
+    795: { items: 2 },
+    1024: { items: 3 },
+    1440: { items: 4 },
   };
   let categories = [
     {
       category: "Laptops",
       JsonFile: Laptops,
     },
-    // {
-    //   category: "Phones",
-    //   JsonFile: Phones,
-    // },
-    // {
-    //   category: "Watches",
-    //   JsonFile: watches,
-    // },
-    // {
-    //   category: "Accessories",
-    //   JsonFile: Accessories,
-    // },
-    // {
-    //   category: "Clothing",
-    //   JsonFile: Clothes,
-    // },
+    {
+      category: "Phones",
+      JsonFile: Phones,
+    },
+    {
+      category: "Watches",
+      JsonFile: watches,
+    },
+    {
+      category: "Accessories",
+      JsonFile: Accessories,
+    },
+    {
+      category: "Clothing",
+      JsonFile: Clothes,  
+    },
   ];
   function handleAddToCart(asin) {
-    console.log("added", asin);
     dispatch(addToCart({ cartItem: 1, productId: asin }))
   }
   return (
     <>
       {categories.map((ele,idx) => {
         return (
-          <div key={"mm"+idx} className="px-5 py-2 mt-10 " data-aos="fade-up">
-            <h1>{ele.category}</h1>
+          <div key={"mm"+idx} className="px-4 py-2  mt-[-35px] w-[100%]" data-aos="fade-up">
+            <h4 className="text-black mb-2 font-extrabold underline">{ele.category}</h4>
             <AliceCarousel
-              mouseTracking
               items={6}
               itemsFit={"contain"}
               autoPlayControls={false}
               autoPlay={true}
               default={true}
-              animationDuration={1000}
-              disableButtonsControls={true}
-              disableDotsControls={false}
+              animationDuration={800}
+              disableButtonsControls={false}
+              disableDotsControls={true}
               infinite={true}
               responsive={responsive}
+              autoPlayInterval={3000}
             >
               {ele.JsonFile.map((prod) => {
                 return (
                   <div
                     key={prod.asin}
                     id={prod.asin}
-                    className="w-80 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
+                    className="w-[90%] h-[350px] pt-4 border shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
                   >
-                    <Link to={`/product-details/${prod.asin}`}>
+                    <Link to={`/product-details/${prod.asin}`} >
+                      <div id="imgAtSingleProductCard" className="flex justify-center items-center w-[100%] h-[50%]">
                       <img
+                      // fallback={<Shimmer width={""} height={""}/> }
                         src={prod.image}
                         alt="Product"
-                        className="h-80 object-fit rounded-t-xl"
-                      />
-                      <div className="px-4 py-3 w-72">
+                        className=" h-[100%] object-fit rounded-t-xl mix-blend-multiply"
+                      /></div>
+                      <div className="px-4 pt-3 w-72">
                         <span className="text-gray-400 mr-3 uppercase text-xs">
                           Brand
                         </span>
                         <p className="text-lg font-bold text-black truncate block capitalize">
                           {prod.title}
                         </p>
+                        <Rating readOnly style={{ maxWidth: 100 }} value={prod.stars} />
                       </div>
                     </Link>
-                    <div className="flex items-center w-[90%] mx-auto">
-                      <p className="text-lg font-semibold text-black cursor-auto my-3">
+                    <div className="flex items-center w-[85%] mx-auto">
+                      <p className="text-lg font-semibold text-black cursor-auto ">
                         {prod.price}
                       </p>
                       <del>
@@ -123,4 +128,4 @@ const SingleProductCard = () => {
   );
 };
 
-export default SingleProductCard;
+export default memo(SingleProductCard);

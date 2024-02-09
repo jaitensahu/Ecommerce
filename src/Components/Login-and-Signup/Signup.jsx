@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { memo, useRef } from "react";
 import {
   Card,
   Input,
@@ -7,18 +7,15 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { signUpFunction } from "../../Redux/Slices/AuthSlice";
 
-
 const Signup = () => {
-  console.log("rendered signup");
+  console.log("rendering signup");
   let dispatch = useDispatch();
   let emailRef = useRef();
   let passwordRef = useRef();
   let nameRef = useRef();
-
-  // let { currentUser } = useSelector((state) => state.AuthSlice);
   return (
     <div className="mx-auto w-fit">
       <Card color="transparent" shadow={false}>
@@ -38,9 +35,6 @@ const Signup = () => {
               size="lg"
               placeholder="Enter Your Name"
               className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
-              // labelProps={{
-              //   className: "before:content-none after:content-none",
-              // }}
             />
             <Typography variant="h6" color="blue-gray" className="-mb-3">
               Your Email
@@ -50,9 +44,6 @@ const Signup = () => {
               size="lg"
               placeholder="name@mail.com"
               className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
-              // labelProps={{
-              //   className: "before:content-none after:content-none",
-              // }}
             />
             <Typography variant="h6" color="blue-gray" className="-mb-3">
               Password
@@ -63,9 +54,6 @@ const Signup = () => {
               size="lg"
               placeholder="********"
               className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
-              // labelProps={{
-              //   className: "before:content-none after:content-none",
-              // }}
             />
           </div>
           <Checkbox
@@ -114,4 +102,4 @@ const Signup = () => {
   );
 };
 
-export default Signup;
+export default memo(Signup);

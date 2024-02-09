@@ -10,6 +10,8 @@ import { Provider } from "react-redux";
 import { store } from "./Redux/Store/Store";
 import ProductDetailPage from "./Components/ProductDetailPage/ProductDetailPage";
 import ShoppingCart from "./Components/ShoppingCart/ShopingCart";
+import ProductsByCategories from "./Components/ProductsByCategories/ProductsByCategories";
+import ShowAllDataByCategory from "./Components/ProductsByCategories/ShowAllDataByCategory";
 
 
 function App() {
@@ -37,6 +39,10 @@ function App() {
         {
           path:"/cart",
           element:<ShoppingCart />
+        },
+        {
+          path:"/category/:categoryName/:id",
+          element:<ShowAllDataByCategory />
         }
       ],
     },

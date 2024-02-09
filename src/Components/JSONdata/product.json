@@ -1,0 +1,1564 @@
+{
+    "request_info": {
+      "success": true,
+      "topup_credits_remaining": 99,
+      "credits_used_this_request": 1
+    },
+    "request_parameters": {
+      "amazon_domain": "amazon.in",
+      "asin": "B073JYC4XM",
+      "type": "product",
+      "output": "json"
+    },
+    "request_metadata": {
+      "created_at": "2024-02-07T17:22:42.264Z",
+      "processed_at": "2024-02-07T17:23:12.106Z",
+      "total_time_taken": 29.84,
+      "amazon_url": "https://www.amazon.in/dp/B073JYC4XM?th=1&psc=1"
+    },
+    "product": {
+      "title": "SanDisk 64GB Class 10 microSDXC Memory Card with Adapter (SDSQUAR-064G-GN6MA) 64 GB A1 Cards",
+      "search_alias": {
+        "title": "Computers & Accessories",
+        "value": "computers"
+      },
+      "title_excluding_variant_name": "SanDisk 64GB Class 10 microSDXC Memory Card with Adapter (SDSQUAR-064G-GN6MA)",
+      "keywords": "SanDisk,64GB,Class,10,microSDXC,Memory,Card,with,Adapter,(SDSQUAR-064G-GN6MA)",
+      "keywords_list": [
+        "SanDisk",
+        "64GB",
+        "Class",
+        "microSDXC",
+        "Memory",
+        "Card",
+        "with",
+        "Adapter",
+        "(SDSQUAR-064G-GN6MA)"
+      ],
+      "asin": "B073JYVKNX",
+      "parent_asin": "B08TBN8XCR",
+      "link": "https://www.amazon.in/SanDisk-microSDXC-Memory-Adapter-SDSQUAR-064G-GN6MA/dp/B073JYVKNX",
+      "brand": "SanDisk",
+      "protection_plans": [
+        {
+          "asin": "B0C3JHF6RB",
+          "title": "1 Year Extended Warranty",
+          "price": {
+            "symbol": "₹",
+            "value": 109,
+            "currency": "INR",
+            "raw": "₹109.00"
+          }
+        }
+      ],
+      "variants": [
+        {
+          "asin": "B07W6H839Y",
+          "title": "512GB SanDisk Ultra",
+          "is_current_product": false,
+          "link": "https://www.amazon.in/dp/B07W6H839Y?th=1&psc=1",
+          "dimensions": [
+            {
+              "name": "Size",
+              "value": "512GB"
+            },
+            {
+              "name": "Style Name",
+              "value": "SanDisk Ultra"
+            }
+          ],
+          "main_image": "https://m.media-amazon.com/images/I/71WgXAs0j0L._SL1500_.jpg",
+          "images": [
+            {
+              "variant": "MAIN",
+              "link": "https://m.media-amazon.com/images/I/71WgXAs0j0L._SL1500_.jpg"
+            },
+            {
+              "variant": "PT01",
+              "link": "https://m.media-amazon.com/images/I/71QwMfhn0sL._SL1500_.jpg"
+            }
+          ]
+        },
+        {
+          "asin": "B074RNRM2B",
+          "title": "400GB With Adapter",
+          "is_current_product": false,
+          "link": "https://www.amazon.in/dp/B074RNRM2B?th=1&psc=1",
+          "dimensions": [
+            {
+              "name": "Size",
+              "value": "400GB"
+            },
+            {
+              "name": "Style Name",
+              "value": "With Adapter"
+            }
+          ],
+          "main_image": "https://m.media-amazon.com/images/I/81MZ2WBTrkL._SL1500_.jpg",
+          "images": [
+            {
+              "variant": "MAIN",
+              "link": "https://m.media-amazon.com/images/I/81MZ2WBTrkL._SL1500_.jpg"
+            },
+            {
+              "variant": "PT01",
+              "link": "https://m.media-amazon.com/images/I/81lQCAXIe8L._SL1500_.jpg"
+            },
+            {
+              "variant": "PT02",
+              "link": "https://m.media-amazon.com/images/I/712GNlgT3jL._SL1500_.jpg"
+            },
+            {
+              "variant": "PT03",
+              "link": "https://m.media-amazon.com/images/I/810XX0PG5iL._SL1500_.jpg"
+            },
+            {
+              "variant": "PT04",
+              "link": "https://m.media-amazon.com/images/I/919kWI9Q0YL._SL1500_.jpg"
+            },
+            {
+              "variant": "PT05",
+              "link": "https://m.media-amazon.com/images/I/61c0HMo4mhL._SL1500_.jpg"
+            },
+            {
+              "variant": "EV01",
+              "link": "https://m.media-amazon.com/images/I/71Q2p2SG7JL._SL1500_.jpg"
+            }
+          ]
+        },
+        {
+          "asin": "B073JYVKNX",
+          "title": "64 GB A1 Cards",
+          "is_current_product": true,
+          "link": "https://www.amazon.in/dp/B073JYVKNX?th=1&psc=1",
+          "dimensions": [
+            {
+              "name": "Size",
+              "value": "64 GB"
+            },
+            {
+              "name": "Style Name",
+              "value": "A1 Cards"
+            }
+          ],
+          "main_image": "https://m.media-amazon.com/images/I/51MHWkg+NqL._SL1044_.jpg",
+          "images": [
+            {
+              "variant": "MAIN",
+              "link": "https://m.media-amazon.com/images/I/51MHWkg+NqL._SL1044_.jpg"
+            },
+            {
+              "variant": "PT01",
+              "link": "https://m.media-amazon.com/images/I/515rqFT3hKL._SL1044_.jpg"
+            }
+          ]
+        }
+      ],
+      "variant_asins_flat": "B07W6H839Y,B074RNRM2B,B073JYVKNX",
+      "energy_efficiency": {},
+      "documents": [
+        {
+          "name": "User Guide (PDF)",
+          "link": "https://m.media-amazon.com/images/I/915DJ6NYn2S.pdf"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Computers & Accessories"
+        },
+        {
+          "name": "Electronics",
+          "link": "https://www.amazon.in/electronics/b/ref=dp_bc_aui_C_1?ie=UTF8&node=976419031",
+          "category_id": "976419031"
+        },
+        {
+          "name": "Accessories",
+          "link": "https://www.amazon.in/Electronics-Accessories/b/ref=dp_bc_aui_C_2?ie=UTF8&node=1388867031",
+          "category_id": "1388867031"
+        },
+        {
+          "name": "Memory Cards",
+          "link": "https://www.amazon.in/memory-cards/b/ref=dp_bc_aui_C_3?ie=UTF8&node=1388963031",
+          "category_id": "1388963031"
+        },
+        {
+          "name": "Micro SD",
+          "link": "https://www.amazon.in/MicroSD-Cards/b/ref=dp_bc_aui_C_4?ie=UTF8&node=1388965031",
+          "category_id": "1388965031"
+        }
+      ],
+      "categories_flat": "Computers & Accessories > Electronics > Accessories > Memory Cards > Micro SD",
+      "a_plus_content": {
+        "has_a_plus_content": true,
+        "has_brand_story": false,
+        "third_party": false
+      },
+      "sub_title": {
+        "text": "Visit the SanDisk Store",
+        "link": "https://www.amazon.in/stores/SanDisk/page/482EBCF3-620B-4067-A3EC-F31E92FA6D4D?ref_=ast_bln"
+      },
+      "rating": 4.3,
+      "rating_breakdown": {
+        "five_star": {
+          "percentage": 60,
+          "count": 356368
+        },
+        "four_star": {
+          "percentage": 25,
+          "count": 148487
+        },
+        "three_star": {
+          "percentage": 8,
+          "count": 47515
+        },
+        "two_star": {
+          "percentage": 3,
+          "count": 17818
+        },
+        "one_star": {
+          "percentage": 4,
+          "count": 23757
+        }
+      },
+      "ratings_total": 593948,
+      "main_image": {
+        "link": "https://m.media-amazon.com/images/I/51MHWkg+NqL.jpg"
+      },
+      "images": [
+        {
+          "link": "https://m.media-amazon.com/images/I/51MHWkg+NqL._SL1044_.jpg",
+          "variant": "MAIN"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/I/515rqFT3hKL._SL1044_.jpg",
+          "variant": "PT01"
+        }
+      ],
+      "images_count": 2,
+      "images_flat": "https://m.media-amazon.com/images/I/51MHWkg+NqL._SL1044_.jpg,https://m.media-amazon.com/images/I/515rqFT3hKL._SL1044_.jpg",
+      "videos": [
+        {
+          "duration_seconds": 80,
+          "width": 854,
+          "height": 480,
+          "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/887170f8-f354-42ff-af25-0fced51ecd83/default.jobtemplate.mp4.480.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/I/51Yb1Rnc9YL.SX522_.jpg",
+          "is_hero_video": false,
+          "variant": "MAIN",
+          "group_id": "IB_G1",
+          "group_type": "videos_for_this_product",
+          "title": "SanDisk 64GB Class 10 microSDXC Memory Card with Adapter (SDSQUAR-064G-GN6MA)"
+        },
+        {
+          "duration_seconds": 91,
+          "width": 854,
+          "height": 480,
+          "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/da70ea20-e48c-45cc-8ab0-6d4106886220/default.jobtemplate.mp4.480.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/I/B1b6PbdVCNS.SX522_.png",
+          "is_hero_video": false,
+          "variant": "MAIN",
+          "group_id": "IB_G1",
+          "group_type": "videos_for_this_product",
+          "title": "SanDisk 64GB Class 10 microSDXC Memory Card with Adapter"
+        },
+        {
+          "duration_seconds": 97,
+          "width": 854,
+          "height": 480,
+          "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/ffaf2860-0c5c-44b8-be17-8d68abb53b60/default.jobtemplate.mp4.480.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/I/51gTeNxYpiL.SX522_.jpg",
+          "is_hero_video": false,
+          "variant": "MAIN",
+          "group_id": "IB_G1",
+          "group_type": "videos_for_this_product",
+          "title": "SanDisk Class 10 MicroSDXC Memory Card with Adapter"
+        }
+      ],
+      "videos_count": 3,
+      "videos_flat": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/887170f8-f354-42ff-af25-0fced51ecd83/default.jobtemplate.mp4.480.mp4,https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/da70ea20-e48c-45cc-8ab0-6d4106886220/default.jobtemplate.mp4.480.mp4,https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/ffaf2860-0c5c-44b8-be17-8d68abb53b60/default.jobtemplate.mp4.480.mp4",
+      "is_bundle": false,
+      "feature_bullets": [
+        "Blazing transfer speeds mean that your content moves fast letting you move up to 1200 photos in a minute",
+        "Class 10 speed rating allows you to shoot Full HD video and high quality photos",
+        "SanDisk cards are compatible with Android smartphones and tablets",
+        "The memory cards are Water proof, Temperature proof, Shock proof, X-Ray proof",
+        "Operating temperature: -13ºF to 185ºF (-25ºC to 85ºC)",
+        "Manufacturer Detail: SanDisk InternationalLtd.c/o Unit 100 AirsideBusiness Park,Lakeshore Drive,Swords,Co. Dublin, Irelandmporter Details: Rashi Peripherals Pvt. Ltd. Rashi Complex,A Building,Survey186,Dongaripada,Poman Village,Vasai Bhiwandi Road, Dist. Thane,Maharastra 401208, India",
+        "Country of Origin: China"
+      ],
+      "feature_bullets_count": 7,
+      "feature_bullets_flat": "Country of Origin: China. Manufacturer Detail: SanDisk InternationalLtd.c/o Unit 100 AirsideBusiness Park,Lakeshore Drive,Swords,Co. Dublin, Irelandmporter Details: Rashi Peripherals Pvt. Ltd. Rashi Complex,A Building,Survey186,Dongaripada,Poman Village,Vasai Bhiwandi Road, Dist. Thane,Maharastra 401208, India. Operating temperature: -13ºF to 185ºF (-25ºC to 85ºC). The memory cards are Water proof, Temperature proof, Shock proof, X-Ray proof. SanDisk cards are compatible with Android smartphones and tablets. Class 10 speed rating allows you to shoot Full HD video and high quality photos. Blazing transfer speeds mean that your content moves fast letting you move up to 1200 photos in a minute.",
+      "attributes": [
+        {
+          "name": "Brand",
+          "value": "SanDisk"
+        },
+        {
+          "name": "Model Name",
+          "value": "SanDisk Ultra microSDXC UHS-I Card 64GB"
+        },
+        {
+          "name": "Flash Memory Type",
+          "value": "Micro SDXC"
+        },
+        {
+          "name": "Memory Storage Capacity",
+          "value": "64 GB"
+        },
+        {
+          "name": "Compatible Devices",
+          "value": "Tablet, Smartphone"
+        },
+        {
+          "name": "Special Feature",
+          "value": "Water proof and Temperature Proof"
+        },
+        {
+          "name": "Read Speed",
+          "value": "100 Megabytes Per Second"
+        },
+        {
+          "name": "Item Weight",
+          "value": "5 Grams"
+        },
+        {
+          "name": "Warranty Type",
+          "value": "Limited"
+        },
+        {
+          "name": "Write Speed",
+          "value": "85"
+        }
+      ],
+      "top_reviews": [
+        {
+          "id": "RUSEHMLMH9F9S",
+          "title": "Amazing products",
+          "body": "Fast delivery with amazing productRead more",
+          "asin": "B073JYVKNX",
+          "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">             <span>Fast delivery with amazing product</span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+          "link": "https://www.amazon.in/gp/customer-reviews/RUSEHMLMH9F9S/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B073JYVKNX",
+          "rating": 5,
+          "date": {
+            "raw": "Reviewed in India on 20 January 2024",
+            "utc": "2024-01-20T00:00:00.000Z"
+          },
+          "profile": {
+            "name": "Prashant Kumar",
+            "link": "https://www.amazon.in/gp/profile/amzn1.account.AFH3DGEKW5MXIXM2H62HVML6UIOA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+            "id": "AFH3DGEKW5MXIXM2H62HVML6UIOA"
+          },
+          "vine_program": false,
+          "verified_purchase": true,
+          "review_country": "in",
+          "is_global_review": false
+        },
+        {
+          "id": "R1T8JGV2QQBYFK",
+          "title": "Worth the money",
+          "body": "Compatible with most of the phones. Worth the money and it's a good brand. Didn't face any issue yet.Read more",
+          "asin": "B073JYVKNX",
+          "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">             <span>Compatible with most of the phones. Worth the money and it's a good brand.<br>Didn't face any issue yet.</span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+          "link": "https://www.amazon.in/gp/customer-reviews/R1T8JGV2QQBYFK/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B073JYVKNX",
+          "rating": 4,
+          "date": {
+            "raw": "Reviewed in India on 26 May 2023",
+            "utc": "2023-05-26T00:00:00.000Z"
+          },
+          "profile": {
+            "name": "Gagandeep Singh",
+            "link": "https://www.amazon.in/gp/profile/amzn1.account.AGLDFH5QDEYGAXCVM5MKCW5WEXZQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+            "id": "AGLDFH5QDEYGAXCVM5MKCW5WEXZQ"
+          },
+          "vine_program": false,
+          "verified_purchase": true,
+          "review_country": "in",
+          "is_global_review": false
+        },
+        {
+          "id": "R1IPT509S8RBB1",
+          "title": "Pretty good",
+          "body": "The micro SD card's speed is fast for file transfer. It comes with an adapter to use as an sd card for camera. I am satisfied.Read more",
+          "asin": "B073JYVKNX",
+          "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">             <span>The micro SD card's speed is fast for file transfer. It comes with an adapter to use as an sd card for camera. I am satisfied.</span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+          "link": "https://www.amazon.in/gp/customer-reviews/R1IPT509S8RBB1/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B073JYVKNX",
+          "rating": 5,
+          "date": {
+            "raw": "Reviewed in India on 28 November 2023",
+            "utc": "2023-11-28T00:00:00.000Z"
+          },
+          "profile": {
+            "name": "Suman D.",
+            "link": "https://www.amazon.in/gp/profile/amzn1.account.AFJ4PHR3IUUM3V3BGS2IMNA2RNVA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+            "id": "AFJ4PHR3IUUM3V3BGS2IMNA2RNVA"
+          },
+          "vine_program": false,
+          "verified_purchase": true,
+          "review_country": "in",
+          "is_global_review": false
+        },
+        {
+          "id": "R3CN7R6Z29CRQ6",
+          "title": "Awesome product",
+          "body": "Buy it now ☺️Read more",
+          "asin": "B073JYVKNX",
+          "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">             <span>Buy it now ☺️</span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+          "link": "https://www.amazon.in/gp/customer-reviews/R3CN7R6Z29CRQ6/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B073JYVKNX",
+          "rating": 5,
+          "date": {
+            "raw": "Reviewed in India on 25 December 2023",
+            "utc": "2023-12-25T00:00:00.000Z"
+          },
+          "profile": {
+            "name": "swapan",
+            "link": "https://www.amazon.in/gp/profile/amzn1.account.AEFHLGDVYWMZNGBLMCZ6VCB6CZCQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+            "id": "AEFHLGDVYWMZNGBLMCZ6VCB6CZCQ"
+          },
+          "vine_program": false,
+          "verified_purchase": true,
+          "review_country": "in",
+          "is_global_review": false
+        },
+        {
+          "id": "R2PZT9CFSINGXX",
+          "title": "More memory more space",
+          "body": "I believe sandisk because they have a better life span. Than The other memory cards and also the transfer rate is quite fast or compatible with almost all the devices. If you have a slot definitelyRead more",
+          "asin": "B073JYVKNX",
+          "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">             <span>I believe sandisk because they have a better life span. Than The other memory cards and also the transfer rate is quite fast or compatible with almost all the devices. If you have a slot definitely</span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+          "link": "https://www.amazon.in/gp/customer-reviews/R2PZT9CFSINGXX/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B073JYVKNX",
+          "rating": 5,
+          "date": {
+            "raw": "Reviewed in India on 31 December 2023",
+            "utc": "2023-12-31T00:00:00.000Z"
+          },
+          "profile": {
+            "name": "Chirag Gupta",
+            "link": "https://www.amazon.in/gp/profile/amzn1.account.AF7D53KPA55TEGTPPTVHIJYWYOVQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+            "id": "AF7D53KPA55TEGTPPTVHIJYWYOVQ"
+          },
+          "vine_program": false,
+          "verified_purchase": true,
+          "review_country": "in",
+          "is_global_review": false
+        },
+        {
+          "id": "R17R3JKXIN5L9B",
+          "title": "Good",
+          "body": "GoodRead more",
+          "asin": "B073JYVKNX",
+          "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">             <span>Good</span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+          "link": "https://www.amazon.in/gp/customer-reviews/R17R3JKXIN5L9B/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B073JYVKNX",
+          "rating": 4,
+          "date": {
+            "raw": "Reviewed in India on 19 January 2024",
+            "utc": "2024-01-19T00:00:00.000Z"
+          },
+          "profile": {
+            "name": "Shubham",
+            "link": "https://www.amazon.in/gp/profile/amzn1.account.AHELFOSSWAJMGUBKF5OMXM6HEYFQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+            "id": "AHELFOSSWAJMGUBKF5OMXM6HEYFQ"
+          },
+          "vine_program": false,
+          "verified_purchase": true,
+          "review_country": "in",
+          "is_global_review": false
+        },
+        {
+          "id": "RXK2D43CUJH7C",
+          "title": "Good",
+          "body": "OkRead more",
+          "asin": "B073JYVKNX",
+          "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">             <span>Ok</span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+          "link": "https://www.amazon.in/gp/customer-reviews/RXK2D43CUJH7C/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B073JYVKNX",
+          "rating": 3,
+          "date": {
+            "raw": "Reviewed in India on 11 December 2023",
+            "utc": "2023-12-11T00:00:00.000Z"
+          },
+          "profile": {
+            "name": "Kushankur D.",
+            "link": "https://www.amazon.in/gp/profile/amzn1.account.AGN6GMBYQOB2DWCZQDRCZSP6U7LA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+            "id": "AGN6GMBYQOB2DWCZQDRCZSP6U7LA"
+          },
+          "vine_program": false,
+          "verified_purchase": true,
+          "review_country": "in",
+          "is_global_review": false
+        },
+        {
+          "id": "R35JUTKGQ8OTSX",
+          "title": "Value of money, it work good.",
+          "body": "SanDisk ultra 64GB memory card is excellent work good in my mobile.Read more",
+          "asin": "B073JYVKNX",
+          "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">             <span>SanDisk ultra 64GB memory card is excellent work good in my mobile.</span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+          "link": "https://www.amazon.in/gp/customer-reviews/R35JUTKGQ8OTSX/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B073JYVKNX",
+          "rating": 5,
+          "date": {
+            "raw": "Reviewed in India on 29 October 2023",
+            "utc": "2023-10-29T00:00:00.000Z"
+          },
+          "profile": {
+            "name": "Pawzi",
+            "link": "https://www.amazon.in/gp/profile/amzn1.account.AHOXD3PXJGVV2IBCYQ3X3QLZBLNQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+            "id": "AHOXD3PXJGVV2IBCYQ3X3QLZBLNQ",
+            "image": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/287f3234-8ae0-410e-9856-cfcd89cef073._CR109,0,281,281_SX48_.jpg"
+          },
+          "vine_program": false,
+          "verified_purchase": true,
+          "images": [
+            {
+              "link": "https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif"
+            }
+          ],
+          "review_country": "in",
+          "is_global_review": false
+        },
+        {
+          "id": "R1K12KVXSAH6P7",
+          "title": "Flawless Performance for Nintendo Switch Lite!",
+          "body": "The SanDisk 128GB Ultra MicroSDXC Memory Card is a game-changer for my Nintendo Switch Lite! With a seamless 100MB/s speed, it handles gaming like a champ. The included adapter is a plus, making it versatile for various devices. Flawless performance and ample storage – a must-have upgrade!Read more",
+          "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">             <span>The SanDisk 128GB Ultra MicroSDXC Memory Card is a game-changer for my Nintendo Switch Lite! With a seamless 100MB/s speed, it handles gaming like a champ. The included adapter is a plus, making it versatile for various devices. Flawless performance and ample storage – a must-have upgrade!</span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+          "rating": 5,
+          "date": {
+            "raw": "Reviewed in the United States on 30 January 2024",
+            "utc": "2024-01-30T00:00:00.000Z"
+          },
+          "profile": {
+            "name": "Yaniv Berkovich"
+          },
+          "vine_program": false,
+          "verified_purchase": true,
+          "review_country": "us",
+          "is_global_review": true
+        },
+        {
+          "id": "RCK7OG7QCSBS2",
+          "title": "Dan down 400",
+          "body": "Great for my memory storage in switchRead more",
+          "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">             <span>Great for my memory storage in switch</span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+          "rating": 5,
+          "date": {
+            "raw": "Reviewed in Canada on 27 January 2024",
+            "utc": "2024-01-27T00:00:00.000Z"
+          },
+          "profile": {
+            "name": "Annette Laird"
+          },
+          "vine_program": false,
+          "verified_purchase": true,
+          "review_country": "ca",
+          "is_global_review": true
+        },
+        {
+          "id": "R1GCTPUTQPHLUI",
+          "title": "The SanDisk Ultra microSDXC card turns out to be a technological gem",
+          "body": "When I made my purchase, I was looking for a reliable and efficient storage solution for my smartphone.  I needed a memory card that could not only expand my storage capacity, but also ensure optimal speed and efficiency for my apps and photos.  The SanDisk Ultra microSDXC, with its promise of 100 MB/s and its C10 and U1 certifications, seemed to be the ideal candidate.  From the first uses, the card stood out for its impressive speed. File transfers were smooth and fast, a real revolution for my data management!  However, I noticed a slight drop in performance when used with very resource-intensive applications. Despite this, the overall reliability of the card has never failed me.  The SanDisk Ultra microSDXC card turns out to be a technological gem. Its solid construction resists shock and extreme temperatures, which is reassuring for those, like me, who tend to be a little clumsy. Performance-wise, it keeps its promises of speed, especially for daily tasks like storing photos or playing music.  Strong points: High transfer speed High reliability and durability Generous storage capacity  Weak points: Slightly reduced performance with demanding applications Price a little high compared to some competitors  To get the most out of your SanDisk Ultra, I recommend formatting it before first use. Also, make sure your device is compatible with the capacity and speed of the card to avoid any performance issues.  If you're looking for a memory card that combines speed, reliability and good storage capacity, the SanDisk Ultra microSDXC is for you.  It is ideal for expanding the memory of your smartphone, tablet or camera. With this card, you're sure to make a smart investment for your digital storage needs.Read more",
+          "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">             <span>When I made my purchase, I was looking for a reliable and efficient storage solution for my smartphone.<br><br>I needed a memory card that could not only expand my storage capacity, but also ensure optimal speed and efficiency for my apps and photos.<br><br>The SanDisk Ultra microSDXC, with its promise of 100 MB/s and its C10 and U1 certifications, seemed to be the ideal candidate.<br><br>From the first uses, the card stood out for its impressive speed. File transfers were smooth and fast, a real revolution for my data management!<br><br>However, I noticed a slight drop in performance when used with very resource-intensive applications. Despite this, the overall reliability of the card has never failed me.<br><br>The SanDisk Ultra microSDXC card turns out to be a technological gem. Its solid construction resists shock and extreme temperatures, which is reassuring for those, like me, who tend to be a little clumsy. Performance-wise, it keeps its promises of speed, especially for daily tasks like storing photos or playing music.<br><br>Strong points:<br>High transfer speed<br>High reliability and durability<br>Generous storage capacity<br><br>Weak points:<br>Slightly reduced performance with demanding applications<br>Price a little high compared to some competitors<br><br>To get the most out of your SanDisk Ultra, I recommend formatting it before first use. Also, make sure your device is compatible with the capacity and speed of the card to avoid any performance issues.<br><br>If you're looking for a memory card that combines speed, reliability and good storage capacity, the SanDisk Ultra microSDXC is for you.<br><br>It is ideal for expanding the memory of your smartphone, tablet or camera. With this card, you're sure to make a smart investment for your digital storage needs.</span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+          "rating": 5,
+          "date": {
+            "raw": "Reviewed in Canada on 28 December 2023",
+            "utc": "2023-12-28T00:00:00.000Z"
+          },
+          "profile": {
+            "name": "Pascal Grenier",
+            "image": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/75e15713-b9d2-460b-a9cb-c6fe8455e5d9._CR0,0,500,500_SX48_.jpg"
+          },
+          "vine_program": false,
+          "verified_purchase": true,
+          "review_country": "ca",
+          "is_global_review": true
+        },
+        {
+          "id": "R1A2YI47UFOQZ1",
+          "title": "Ótimo produto.",
+          "body": "Comprei para utilizar no Nintendo Switch, e funcionou perfeitamente, produto original e de boa qualidade.Read more",
+          "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">           <span class=\"cr-original-review-content\">Comprei para utilizar no Nintendo Switch, e funcionou perfeitamente, produto original e de boa qualidade.</span><span class=\"cr-translated-review-content aok-hidden\"></span>     </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+          "rating": 5,
+          "date": {
+            "raw": "Reviewed in Brazil on 17 November 2023",
+            "utc": "2023-11-17T00:00:00.000Z"
+          },
+          "profile": {
+            "name": "Roney Silva"
+          },
+          "vine_program": false,
+          "verified_purchase": true,
+          "helpful_votes": 9,
+          "review_country": "br",
+          "is_global_review": true
+        },
+        {
+          "id": "R33SCNYGAWI3NO",
+          "title": "Produto ótimo!!",
+          "body": "Produto ótimo boa qualidade e chegou rápido antes do prazo esperado!!Read more",
+          "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">           <span class=\"cr-original-review-content\">Produto ótimo boa qualidade e chegou rápido antes do prazo esperado!!</span><span class=\"cr-translated-review-content aok-hidden\"></span>     </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+          "rating": 5,
+          "date": {
+            "raw": "Reviewed in Brazil on 27 July 2023",
+            "utc": "2023-07-27T00:00:00.000Z"
+          },
+          "profile": {
+            "name": "Fabinho"
+          },
+          "vine_program": false,
+          "verified_purchase": true,
+          "review_country": "br",
+          "is_global_review": true
+        }
+      ],
+      "buybox_winner": {
+        "is_prime": false,
+        "is_prime_exclusive_deal": false,
+        "is_amazon_fresh": false,
+        "condition": {
+          "is_new": true
+        },
+        "availability": {
+          "type": "in_stock",
+          "raw": "Only 1 left in stock.",
+          "dispatch_days": 1,
+          "stock_level": 1
+        },
+        "fulfillment": {
+          "type": "2p",
+          "standard_delivery": {
+            "date": "Sunday, 11 February",
+            "name": "FREE"
+          },
+          "fastest_delivery": {
+            "date": "Saturday, 10 February",
+            "name": "Or fastest delivery Saturday, 10 February. Order within 11 hrs 21 mins. Details"
+          },
+          "is_sold_by_amazon": false,
+          "is_fulfilled_by_amazon": true,
+          "is_fulfilled_by_third_party": false,
+          "is_sold_by_third_party": true,
+          "third_party_seller": {
+            "name": "Appario Retail Private Ltd",
+            "link": "https://www.amazon.in/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A14CZOWI0VEHLG&asin=B073JYVKNX&ref_=dp_merchant_link&isAmazonFulfilled=1",
+            "id": "A14CZOWI0VEHLG"
+          }
+        },
+        "price": {
+          "symbol": "₹",
+          "value": 750,
+          "currency": "INR",
+          "raw": "₹750.00"
+        },
+        "rrp": {
+          "symbol": "₹",
+          "value": 2100,
+          "currency": "INR",
+          "raw": "₹2,100"
+        },
+        "shipping": {
+          "raw": "FREE"
+        }
+      },
+      "specifications": [
+        {
+          "name": "Brand",
+          "value": "‎SanDisk"
+        },
+        {
+          "name": "Manufacturer",
+          "value": "‎SanDisk, 20F No. 918, Unit B,C,D Middle Huai Hai Zhong Road Shanghai 200020 PRC"
+        },
+        {
+          "name": "Model",
+          "value": "‎SDSQUAR-064G-GN6MA"
+        },
+        {
+          "name": "Model Name",
+          "value": "‎SanDisk Ultra microSDXC UHS-I Card 64GB"
+        },
+        {
+          "name": "Model Year",
+          "value": "‎2017"
+        },
+        {
+          "name": "Product Dimensions",
+          "value": "‎1.5 x 0.08 x 1.09 cm; 5 Grams"
+        },
+        {
+          "name": "Item model number",
+          "value": "‎SDSQUAR-064G-GN6MA"
+        },
+        {
+          "name": "RAM Size",
+          "value": "‎64 GB"
+        },
+        {
+          "name": "Memory Storage Capacity",
+          "value": "‎64 GB"
+        },
+        {
+          "name": "Flash Memory Installed Size",
+          "value": "‎64"
+        },
+        {
+          "name": "Flash memory type",
+          "value": "‎Micro SDXC"
+        },
+        {
+          "name": "Digital storage capacity",
+          "value": "‎64 GB"
+        },
+        {
+          "name": "Hardware Interface",
+          "value": "‎microSDXC"
+        },
+        {
+          "name": "Compatible Devices",
+          "value": "‎Tablet, Smartphone"
+        },
+        {
+          "name": "Special Features",
+          "value": "‎Water proof and Temperature Proof"
+        },
+        {
+          "name": "Mounting Hardware",
+          "value": "‎64GB SanDisk Ultra microSDHCTM UHS-I card with Adapter"
+        },
+        {
+          "name": "Colour Screen",
+          "value": "‎No"
+        },
+        {
+          "name": "Batteries Included",
+          "value": "‎No"
+        },
+        {
+          "name": "Batteries Required",
+          "value": "‎No"
+        },
+        {
+          "name": "Data Transfer Rate",
+          "value": "‎64 Megabits Per Second"
+        },
+        {
+          "name": "Does it contain liquid?",
+          "value": "‎No"
+        },
+        {
+          "name": "Has Auto Focus",
+          "value": "‎No"
+        },
+        {
+          "name": "Includes Rechargeable Battery",
+          "value": "‎No"
+        },
+        {
+          "name": "Is there a timer?",
+          "value": "‎No"
+        },
+        {
+          "name": "Includes AC Adapter",
+          "value": "‎No"
+        },
+        {
+          "name": "Supports Bluetooth Technology",
+          "value": "‎No"
+        },
+        {
+          "name": "Programmable Buttons",
+          "value": "‎No"
+        },
+        {
+          "name": "Manufacturer",
+          "value": "‎SanDisk"
+        },
+        {
+          "name": "Country of Origin",
+          "value": "‎China"
+        },
+        {
+          "name": "Imported By",
+          "value": "‎Ingram Micro India Pvt. Ltd.,5th Floor, Building A, Empire Plaza, LBS Marg, Vikhroli West, Mumbai 400083.."
+        },
+        {
+          "name": "Item Weight",
+          "value": "‎5 g"
+        },
+        {
+          "name": "ASIN",
+          "value": "B073JYVKNX"
+        },
+        {
+          "name": "Customer Reviews",
+          "value": "4.3 4.3 out of 5 stars        593,948 ratings          4.3 out of 5 stars"
+        },
+        {
+          "name": "Best Sellers Rank",
+          "value": "#51,867 in Electronics (See Top 100 in Electronics) #106 in Micro SD Cards"
+        },
+        {
+          "name": "Date First Available",
+          "value": "1 July 2017"
+        },
+        {
+          "name": "Packer",
+          "value": "20F No. 918, Unit B,C,D Middle Huai Hai Zhong Road Shanghai 200020 PRC"
+        },
+        {
+          "name": "Item Dimensions LxWxH",
+          "value": "15 x 1 x 11 Millimeters"
+        },
+        {
+          "name": "Net Quantity",
+          "value": "64 GB"
+        },
+        {
+          "name": "Generic Name",
+          "value": "Micro SD"
+        },
+        {
+          "name": "Brand",
+          "value": "SanDisk"
+        },
+        {
+          "name": "Model Name",
+          "value": "SanDisk Ultra microSDXC UHS-I Card 64GB"
+        },
+        {
+          "name": "Flash Memory Type",
+          "value": "Micro SDXC"
+        },
+        {
+          "name": "Memory Storage Capacity",
+          "value": "64 GB"
+        },
+        {
+          "name": "Compatible Devices",
+          "value": "Tablet, Smartphone"
+        },
+        {
+          "name": "Special Feature",
+          "value": "Water proof and Temperature Proof"
+        },
+        {
+          "name": "Read Speed",
+          "value": "100 Megabytes Per Second"
+        },
+        {
+          "name": "Item Weight",
+          "value": "5 Grams"
+        },
+        {
+          "name": "Warranty Type",
+          "value": "Limited"
+        },
+        {
+          "name": "Write Speed",
+          "value": "85"
+        }
+      ],
+      "specifications_flat": "Write Speed: 85. Warranty Type: Limited. Item Weight: 5 Grams. Read Speed: 100 Megabytes Per Second. Special Feature: Water proof and Temperature Proof. Compatible Devices: Tablet, Smartphone. Memory Storage Capacity: 64 GB. Flash Memory Type: Micro SDXC. Model Name: SanDisk Ultra microSDXC UHS-I Card 64GB. Brand: SanDisk. Generic Name: Micro SD. Net Quantity: 64 GB. Item Dimensions LxWxH: 15 x 1 x 11 Millimeters. Packer: 20F No. 918, Unit B,C,D Middle Huai Hai Zhong Road Shanghai 200020 PRC. Date First Available: 1 July 2017. Best Sellers Rank: #51,867 in Electronics (See Top 100 in Electronics) #106 in Micro SD Cards. Customer Reviews: 4.3 4.3 out of 5 stars        593,948 ratings          4.3 out of 5 stars. ASIN: B073JYVKNX. Item Weight: ‎5 g. Imported By: ‎Ingram Micro India Pvt. Ltd.,5th Floor, Building A, Empire Plaza, LBS Marg, Vikhroli West, Mumbai 400083.. Country of Origin: ‎China. Manufacturer: ‎SanDisk. Programmable Buttons: ‎No. Supports Bluetooth Technology: ‎No. Includes AC Adapter: ‎No. Is there a timer?: ‎No. Includes Rechargeable Battery: ‎No. Has Auto Focus: ‎No. Does it contain liquid?: ‎No. Data Transfer Rate: ‎64 Megabits Per Second. Batteries Required: ‎No. Batteries Included: ‎No. Colour Screen: ‎No. Mounting Hardware: ‎64GB SanDisk Ultra microSDHCTM UHS-I card with Adapter. Special Features: ‎Water proof and Temperature Proof. Compatible Devices: ‎Tablet, Smartphone. Hardware Interface: ‎microSDXC. Digital storage capacity: ‎64 GB. Flash memory type: ‎Micro SDXC. Flash Memory Installed Size: ‎64. Memory Storage Capacity: ‎64 GB. RAM Size: ‎64 GB. Item model number: ‎SDSQUAR-064G-GN6MA. Product Dimensions: ‎1.5 x 0.08 x 1.09 cm; 5 Grams. Model Year: ‎2017. Model Name: ‎SanDisk Ultra microSDXC UHS-I Card 64GB. Model: ‎SDSQUAR-064G-GN6MA. Manufacturer: ‎SanDisk, 20F No. 918, Unit B,C,D Middle Huai Hai Zhong Road Shanghai 200020 PRC. Brand: ‎SanDisk.",
+      "bestsellers_rank": [
+        {
+          "category": "Electronics",
+          "rank": 51867,
+          "link": "https://www.amazon.in/gp/bestsellers/electronics/ref=pd_zg_ts_electronics"
+        },
+        {
+          "category": "Micro SD Cards",
+          "rank": 106,
+          "link": "https://www.amazon.in/gp/bestsellers/electronics/1388965031/ref=pd_zg_hrsr_electronics"
+        }
+      ],
+      "color": "‎No",
+      "manufacturer": "‎SanDisk",
+      "weight": "5 Grams",
+      "first_available": {
+        "raw": "1 July 2017",
+        "utc": "2017-07-01T00:00:00.000Z"
+      },
+      "dimensions": "‎1.5 x 0.08 x 1.09 cm; 5 Grams",
+      "model_number": "‎SDSQUAR-064G-GN6MA",
+      "bestsellers_rank_flat": "Category: Electronics | Rank: 51867, Category: Micro SD Cards | Rank: 106",
+      "whats_in_the_box": [
+        "64GB SanDisk Ultra microSDHCTM UHS-I card with Adapter"
+      ]
+    },
+    "brand_store": {
+      "id": "482EBCF3-620B-4067-A3EC-F31E92FA6D4D",
+      "link": "https://www.amazon.in/stores/SanDisk/page/482EBCF3-620B-4067-A3EC-F31E92FA6D4D"
+    },
+    "user_guide": "https://m.media-amazon.com/images/I/915DJ6NYn2S.pdf",
+    "frequently_bought_together": {
+      "total_price": {
+        "symbol": "₹",
+        "value": 1065,
+        "currency": "INR",
+        "raw": "₹1,065.00"
+      },
+      "products": [
+        {
+          "asin": "B073JYVKNX",
+          "title": "SanDisk 64GB Class 10 microSDXC Memory Card with Adapter (SDSQUAR-064G-GN6MA)",
+          "link": "https://www.amazon.in/dp/B073JYVKNX",
+          "image": "https://images-eu.ssl-images-amazon.com/images/I/51MHWkg+NqL._AC_UL116_SR116,116_.jpg",
+          "price": {
+            "symbol": "₹",
+            "value": 109,
+            "currency": "INR",
+            "raw": "₹109.00"
+          }
+        },
+        {
+          "asin": "B0C59G4TLQ",
+          "title": "saco Sony ICD-UX560 Stereo Digital Voice Recorder Comfort Case Pouch",
+          "link": "https://www.amazon.in/dp/B0C59G4TLQ",
+          "image": "https://images-eu.ssl-images-amazon.com/images/I/81eIsPdEbLL._AC_UL116_SR116,116_.jpg",
+          "price": {
+            "symbol": "₹",
+            "value": 315,
+            "currency": "INR",
+            "raw": "₹315.00"
+          }
+        }
+      ]
+    }
+  }
+
+
+
+
+Api-Key=E2462DAF38944C9287CA71BD1F6ECE4A
+  APi=https://api.asindataapi.com/request?api_key=${API-KEY}&type=product&amazon_domain=amazon.in&asin=B0CRH561RC
+
+  {
+    "request_info": {
+      "success": true,
+      "topup_credits_remaining": 93,
+      "credits_used_this_request": 1
+    },
+    "request_parameters": {
+      "type": "product",
+      "amazon_domain": "amazon.in",
+      "asin": "B0CRH561RC"
+    },
+    "request_metadata": {
+      "created_at": "2024-02-07T17:44:22.344Z",
+      "processed_at": "2024-02-07T17:44:31.755Z",
+      "total_time_taken": 9.41,
+      "amazon_url": "https://www.amazon.in/dp/B0CRH561RC?th=1&psc=1"
+    },
+    "product": {
+      "title": "OnePlus Buds 3 Truly Wireless Bluetooth Earbuds with Upto 49dB Smart Adaptive Noise Cancellation,Hi-Res Sound Quality,Sliding Volume Control,10mins for 7Hours Fast Charging with Upto 44Hrs Playback Metallic Gray",
+      "search_alias": {
+        "title": "Electronics",
+        "value": "electronics"
+      },
+      "title_excluding_variant_name": "OnePlus Buds 3 Truly Wireless Bluetooth Earbuds with Upto 49dB Smart Adaptive Noise Cancellation,Hi-Res Sound Quality,Sliding Volume Control,10mins for 7Hours Fast Charging with Upto 44Hrs Playback",
+      "keywords": "OnePlus,Buds,3,Truly,Wireless,Bluetooth,Earbuds,with,Upto,49dB,Smart,Adaptive,Noise,Cancellation,Hi-Res,Sound,Quality,Sliding,Volume,Control,10mins,for,7Hours,Fast,Charging,with,Upto,44Hrs,Playback",
+      "keywords_list": [
+        "OnePlus",
+        "Buds",
+        "Truly",
+        "Wireless",
+        "Bluetooth",
+        "Earbuds",
+        "with",
+        "Upto",
+        "49dB",
+        "Smart",
+        "Adaptive",
+        "Noise",
+        "Cancellation",
+        "Hi-Res",
+        "Sound",
+        "Quality",
+        "Sliding",
+        "Volume",
+        "Control",
+        "10mins",
+        "7Hours",
+        "Fast",
+        "Charging",
+        "with",
+        "Upto",
+        "44Hrs",
+        "Playback"
+      ],
+      "asin": "B0CRH561RC",
+      "parent_asin": "B0CV3WH9TD",
+      "link": "https://www.amazon.in/OnePlus-Wireless-Bluetooth-Adaptive-Cancellation/dp/B0CRH561RC",
+      "brand": "OnePlus",
+      "variants": [
+        {
+          "asin": "B0CRH6CYS6",
+          "title": "Splendid Blue",
+          "is_current_product": false,
+          "link": "https://www.amazon.in/dp/B0CRH6CYS6?th=1&psc=1",
+          "dimensions": [
+            {
+              "name": "Colour",
+              "value": "Splendid Blue"
+            }
+          ],
+          "main_image": "https://m.media-amazon.com/images/I/51LxiMjx3XL._SL1500_.jpg",
+          "images": [
+            {
+              "variant": "MAIN",
+              "link": "https://m.media-amazon.com/images/I/51LxiMjx3XL._SL1500_.jpg"
+            },
+            {
+              "variant": "FRNT",
+              "link": "https://m.media-amazon.com/images/I/51QQMpbUoiL._SL1500_.jpg"
+            },
+            {
+              "variant": "SIDE",
+              "link": "https://m.media-amazon.com/images/I/51QQMpbUoiL._SL1500_.jpg"
+            },
+            {
+              "variant": "BACK",
+              "link": "https://m.media-amazon.com/images/I/51Tql8xO0dL._SL1500_.jpg"
+            },
+            {
+              "variant": "PT01",
+              "link": "https://m.media-amazon.com/images/I/61j2Oz3VBYL._SL1500_.jpg"
+            },
+            {
+              "variant": "PT02",
+              "link": "https://m.media-amazon.com/images/I/51FgsAH3FsL._SL1500_.jpg"
+            },
+            {
+              "variant": "PT03",
+              "link": "https://m.media-amazon.com/images/I/71fXx1fB5BL._SL1500_.jpg"
+            }
+          ],
+          "price": {
+            "symbol": "₹",
+            "value": 5499,
+            "currency": "INR",
+            "raw": "₹5,499.00"
+          }
+        },
+        {
+          "asin": "B0CRH561RC",
+          "title": "Metallic Gray",
+          "is_current_product": true,
+          "link": "https://www.amazon.in/dp/B0CRH561RC?th=1&psc=1",
+          "dimensions": [
+            {
+              "name": "Colour",
+              "value": "Metallic Gray"
+            }
+          ],
+          "main_image": "https://m.media-amazon.com/images/I/51h7CQTRJ1L._SL1500_.jpg",
+          "images": [
+            {
+              "variant": "MAIN",
+              "link": "https://m.media-amazon.com/images/I/51h7CQTRJ1L._SL1500_.jpg"
+            },
+            {
+              "variant": "FRNT",
+              "link": "https://m.media-amazon.com/images/I/518JdWAXvJL._SL1500_.jpg"
+            },
+            {
+              "variant": "SIDE",
+              "link": "https://m.media-amazon.com/images/I/51wXDR0u4uL._SL1500_.jpg"
+            },
+            {
+              "variant": "BACK",
+              "link": "https://m.media-amazon.com/images/I/41EpveO7uQL._SL1500_.jpg"
+            },
+            {
+              "variant": "PT01",
+              "link": "https://m.media-amazon.com/images/I/61XHerhMdaL._SL1500_.jpg"
+            },
+            {
+              "variant": "PT02",
+              "link": "https://m.media-amazon.com/images/I/51AAuZ-WOIL._SL1500_.jpg"
+            },
+            {
+              "variant": "PT03",
+              "link": "https://m.media-amazon.com/images/I/71fXx1fB5BL._SL1500_.jpg"
+            }
+          ],
+          "price": {
+            "symbol": "₹",
+            "value": 5499,
+            "currency": "INR",
+            "raw": "₹5,499.00"
+          }
+        }
+      ],
+      "variant_asins_flat": "B0CRH6CYS6,B0CRH561RC",
+      "energy_efficiency": {},
+      "categories": [
+        {
+          "name": "Electronics",
+          "link": "https://www.amazon.in/electronics/b/ref=dp_bc_aui_C_1?ie=UTF8&node=976419031",
+          "category_id": "976419031"
+        },
+        {
+          "name": "Headphones, Earbuds & Accessories",
+          "link": "https://www.amazon.in/b/ref=dp_bc_aui_C_2?ie=UTF8&node=29561348031",
+          "category_id": "29561348031"
+        },
+        {
+          "name": "Headphones",
+          "link": "https://www.amazon.in/headphones/b/ref=dp_bc_aui_C_3?ie=UTF8&node=1388921031",
+          "category_id": "1388921031"
+        },
+        {
+          "name": "In-Ear",
+          "link": "https://www.amazon.in/b/ref=dp_bc_aui_C_4?ie=UTF8&node=14146389031",
+          "category_id": "14146389031"
+        }
+      ],
+      "categories_flat": "Electronics > Headphones, Earbuds & Accessories > Headphones > In-Ear",
+      "a_plus_content": {
+        "has_a_plus_content": true,
+        "has_brand_story": false,
+        "third_party": false
+      },
+      "sub_title": {
+        "text": "Brand: OnePlus",
+        "link": "https://www.amazon.in/OnePlus/b/ref=bl_dp_s_web_13755902031?ie=UTF8&node=13755902031&field-lbr_brands_browse-bin=OnePlus"
+      },
+      "main_image": {
+        "link": "https://m.media-amazon.com/images/I/51h7CQTRJ1L.jpg"
+      },
+      "images": [
+        {
+          "link": "https://m.media-amazon.com/images/I/51h7CQTRJ1L._SL1500_.jpg",
+          "variant": "MAIN"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/I/518JdWAXvJL._SL1500_.jpg",
+          "variant": "FRNT"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/I/51wXDR0u4uL._SL1500_.jpg",
+          "variant": "SIDE"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/I/41EpveO7uQL._SL1500_.jpg",
+          "variant": "BACK"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/I/61XHerhMdaL._SL1500_.jpg",
+          "variant": "PT01"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/I/51AAuZ-WOIL._SL1500_.jpg",
+          "variant": "PT02"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/I/71fXx1fB5BL._SL1500_.jpg",
+          "variant": "PT03"
+        }
+      ],
+      "images_count": 7,
+      "images_flat": "https://m.media-amazon.com/images/I/51h7CQTRJ1L._SL1500_.jpg,https://m.media-amazon.com/images/I/518JdWAXvJL._SL1500_.jpg,https://m.media-amazon.com/images/I/51wXDR0u4uL._SL1500_.jpg,https://m.media-amazon.com/images/I/41EpveO7uQL._SL1500_.jpg,https://m.media-amazon.com/images/I/61XHerhMdaL._SL1500_.jpg,https://m.media-amazon.com/images/I/51AAuZ-WOIL._SL1500_.jpg,https://m.media-amazon.com/images/I/71fXx1fB5BL._SL1500_.jpg",
+      "is_bundle": false,
+      "feature_bullets": [
+        "[Best-in-class Sound Quality]: 10.4mm+6mm dynamic dual driver, LHDC5.0 Bluetooth CODEC and high resolution certification makes the product best in its sound quality with deeper bass, delicate treble and clear vocals",
+        "[Sliding Volume Control]: Slide on the surface of touch area of buds to adjust the volume.Sliding up increases the volume, while sliding down decreases the volume",
+        "[49dB Adaptive Nosie Cancellation]: Advanced noise-cancelling technology,coupled with a high-performance chip,elevates the depth of noise cancellation upto 49dB.This reduces noise and blocks out chaos and allows users to enjoy music immersively",
+        "[Dual Connection]:It can simulatenously connect to 2 devices such as Andriod/iOS/Windows smartphone, tablets or computers allowing for quick and seamless device switching",
+        "[Battery Life]:It has 10mins of Fast Charging that give 7 hours of Playback time with total music playback upto 44 hours with ANC Off||[IP55 rating]: With IP55 Dust and water resistance there is no fear of sweating or rain"
+      ],
+      "feature_bullets_count": 5,
+      "feature_bullets_flat": "[Battery Life]:It has 10mins of Fast Charging that give 7 hours of Playback time with total music playback upto 44 hours with ANC Off||[IP55 rating]: With IP55 Dust and water resistance there is no fear of sweating or rain. [Dual Connection]:It can simulatenously connect to 2 devices such as Andriod/iOS/Windows smartphone, tablets or computers allowing for quick and seamless device switching. [49dB Adaptive Nosie Cancellation]: Advanced noise-cancelling technology,coupled with a high-performance chip,elevates the depth of noise cancellation upto 49dB.This reduces noise and blocks out chaos and allows users to enjoy music immersively. [Sliding Volume Control]: Slide on the surface of touch area of buds to adjust the volume.Sliding up increases the volume, while sliding down decreases the volume. [Best-in-class Sound Quality]: 10.4mm+6mm dynamic dual driver, LHDC5.0 Bluetooth CODEC and high resolution certification makes the product best in its sound quality with deeper bass, delicate treble and clear vocals.",
+      "attributes": [
+        {
+          "name": "Brand",
+          "value": "OnePlus"
+        },
+        {
+          "name": "Model Name",
+          "value": "Buds"
+        },
+        {
+          "name": "Colour",
+          "value": "Metallic Gray"
+        },
+        {
+          "name": "Form Factor",
+          "value": "In Ear"
+        },
+        {
+          "name": "Connectivity Technology",
+          "value": "Wireless"
+        }
+      ],
+      "buybox_winner": {
+        "maximum_order_quantity": {
+          "value": 30,
+          "hard_maximum": true
+        },
+        "is_prime": false,
+        "is_prime_exclusive_deal": false,
+        "is_amazon_fresh": false,
+        "condition": {
+          "is_new": true
+        },
+        "availability": {
+          "type": "in_stock",
+          "raw": "In stock",
+          "dispatch_days": 1
+        },
+        "fulfillment": {
+          "type": "2p",
+          "standard_delivery": {
+            "date": "Sunday, 11 February",
+            "name": "FREE"
+          },
+          "fastest_delivery": {
+            "date": "Saturday, 10 February",
+            "name": "Or fastest delivery Saturday, 10 February. Order within 11 hrs. Details"
+          },
+          "is_sold_by_amazon": false,
+          "is_fulfilled_by_amazon": true,
+          "is_fulfilled_by_third_party": false,
+          "is_sold_by_third_party": true,
+          "third_party_seller": {
+            "name": "Cocoblu Retail",
+            "link": "https://www.amazon.in/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A1WYWER0W24N8S&asin=B0CRH561RC&ref_=dp_merchant_link&isAmazonFulfilled=1",
+            "id": "A1WYWER0W24N8S"
+          }
+        },
+        "price": {
+          "symbol": "₹",
+          "value": 5499,
+          "currency": "INR",
+          "raw": "₹5,499.00"
+        },
+        "rrp": {
+          "symbol": "₹",
+          "value": 6499,
+          "currency": "INR",
+          "raw": "₹6,499"
+        },
+        "shipping": {
+          "raw": "FREE"
+        }
+      },
+      "specifications": [
+        {
+          "name": "Product Dimensions",
+          "value": "‎3.2 x 0.6 x 2.5 cm; 50 Grams"
+        },
+        {
+          "name": "Item model number",
+          "value": "‎E509A"
+        },
+        {
+          "name": "Connectivity technologies",
+          "value": "‎Wireless"
+        },
+        {
+          "name": "Special features",
+          "value": "‎Buds 3 True Wireless in Ear Earbuds with Sliding Volume Control and 49dB ANC"
+        },
+        {
+          "name": "Other display features",
+          "value": "‎Wireless"
+        },
+        {
+          "name": "Colour",
+          "value": "‎Metallic Gray"
+        },
+        {
+          "name": "Whats in the box",
+          "value": "‎Ear Cushions"
+        },
+        {
+          "name": "Manufacturer",
+          "value": "‎OnePlus"
+        },
+        {
+          "name": "Country of Origin",
+          "value": "‎China"
+        },
+        {
+          "name": "Item Weight",
+          "value": "‎50 g"
+        },
+        {
+          "name": "ASIN",
+          "value": "B0CRH561RC"
+        },
+        {
+          "name": "Best Sellers Rank",
+          "value": "#10 in Electronics (See Top 100 in Electronics) #3 in In-Ear Headphones"
+        },
+        {
+          "name": "Date First Available",
+          "value": "22 January 2024"
+        },
+        {
+          "name": "Manufacturer",
+          "value": "OnePlus, ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD. 18C02, 18C03, 18C04 AND 18C05, SHUM YIP TERRA BUILDING, BINHEAVENUE NORTH, FULIAN DISTRICT, SHENZHEN, GUANGDONG, P.R.CHINA 518000"
+        },
+        {
+          "name": "Packer",
+          "value": "ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD. 18C02, 18C03, 18C04 AND 18C05, SHUM YIP TERRA BUILDING, BINHEAVENUE NORTH, FULIAN DISTRICT, SHENZHEN, GUANGDONG, P.R.CHINA 518000"
+        },
+        {
+          "name": "Importer",
+          "value": "ONEPLUS TECHNOLOGY INDIA PRIVATE LIMITED. UB CITY, 6TH FLOOR, UB CITY 24, UB CITY, VITTAL MALLYA RD, D'SOUZA LAYOUT ASHOK NAGAR, BENGALURU, BENGALURU URBAN, KARNATAKA 560001"
+        },
+        {
+          "name": "Item Dimensions LxWxH",
+          "value": "32 x 6 x 25 Millimeters"
+        },
+        {
+          "name": "Net Quantity",
+          "value": "1 Count"
+        },
+        {
+          "name": "Generic Name",
+          "value": "Wireless in Ear Earbuds"
+        },
+        {
+          "name": "Brand",
+          "value": "OnePlus"
+        },
+        {
+          "name": "Model Name",
+          "value": "Buds"
+        },
+        {
+          "name": "Colour",
+          "value": "Metallic Gray"
+        },
+        {
+          "name": "Form Factor",
+          "value": "In Ear"
+        },
+        {
+          "name": "Connectivity Technology",
+          "value": "Wireless"
+        }
+      ],
+      "specifications_flat": "Connectivity Technology: Wireless. Form Factor: In Ear. Colour: Metallic Gray. Model Name: Buds. Brand: OnePlus. Generic Name: Wireless in Ear Earbuds. Net Quantity: 1 Count. Item Dimensions LxWxH: 32 x 6 x 25 Millimeters. Importer: ONEPLUS TECHNOLOGY INDIA PRIVATE LIMITED. UB CITY, 6TH FLOOR, UB CITY 24, UB CITY, VITTAL MALLYA RD, D'SOUZA LAYOUT ASHOK NAGAR, BENGALURU, BENGALURU URBAN, KARNATAKA 560001. Packer: ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD. 18C02, 18C03, 18C04 AND 18C05, SHUM YIP TERRA BUILDING, BINHEAVENUE NORTH, FULIAN DISTRICT, SHENZHEN, GUANGDONG, P.R.CHINA 518000. Manufacturer: OnePlus, ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD. 18C02, 18C03, 18C04 AND 18C05, SHUM YIP TERRA BUILDING, BINHEAVENUE NORTH, FULIAN DISTRICT, SHENZHEN, GUANGDONG, P.R.CHINA 518000. Date First Available: 22 January 2024. Best Sellers Rank: #10 in Electronics (See Top 100 in Electronics) #3 in In-Ear Headphones. ASIN: B0CRH561RC. Item Weight: ‎50 g. Country of Origin: ‎China. Manufacturer: ‎OnePlus. Whats in the box: ‎Ear Cushions. Colour: ‎Metallic Gray. Other display features: ‎Wireless. Special features: ‎Buds 3 True Wireless in Ear Earbuds with Sliding Volume Control and 49dB ANC. Connectivity technologies: ‎Wireless. Item model number: ‎E509A. Product Dimensions: ‎3.2 x 0.6 x 2.5 cm; 50 Grams.",
+      "bestsellers_rank": [
+        {
+          "category": "Electronics",
+          "rank": 10,
+          "link": "https://www.amazon.in/gp/bestsellers/electronics/ref=pd_zg_ts_electronics"
+        },
+        {
+          "category": "In-Ear Headphones",
+          "rank": 3,
+          "link": "https://www.amazon.in/gp/bestsellers/electronics/14146389031/ref=pd_zg_hrsr_electronics"
+        }
+      ],
+      "color": "Metallic Gray",
+      "manufacturer": "OnePlus, ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD. 18C02, 18C03, 18C04 AND 18C05, SHUM YIP TERRA BUILDING, BINHEAVENUE NORTH, FULIAN DISTRICT, SHENZHEN, GUANGDONG, P.R.CHINA 518000",
+      "weight": "‎50 g",
+      "first_available": {
+        "raw": "22 January 2024",
+        "utc": "2024-01-22T00:00:00.000Z"
+      },
+      "dimensions": "‎3.2 x 0.6 x 2.5 cm; 50 Grams",
+      "model_number": "‎E509A",
+      "bestsellers_rank_flat": "Category: Electronics | Rank: 10, Category: In-Ear Headphones | Rank: 3",
+      "whats_in_the_box": [
+        "Ear Cushions"
+      ]
+    },
+    "frequently_bought_together": {
+      "total_price": {
+        "symbol": "₹",
+        "value": 5933,
+        "currency": "INR",
+        "raw": "₹5,933.00"
+      },
+      "products": [
+        {
+          "asin": "B0CRH561RC",
+          "title": "OnePlus Buds 3 Truly Wireless Bluetooth Earbuds with Upto 49dB Smart Adaptive Noise Cancellation,Hi-Res Sound Quality,Sliding Volume Control,10mins for 7Hours Fast Charging with Upto 44Hrs Playback",
+          "link": "https://www.amazon.in/dp/B0CRH561RC",
+          "image": "https://images-eu.ssl-images-amazon.com/images/I/51h7CQTRJ1L._AC_UL116_SR116,116_.jpg",
+          "price": {
+            "symbol": "₹",
+            "value": 5499,
+            "currency": "INR",
+            "raw": "₹5,499.00"
+          }
+        },
+        {
+          "asin": "B09WHN1FCG",
+          "title": "Sounce Silicone Protective Case Cover for OnePlus Buds Z2 TWS, Anti Fall Anti Dust, with Hook Earphone Case [Case Cover only] (Black)",
+          "link": "https://www.amazon.in/dp/B09WHN1FCG",
+          "image": "https://images-eu.ssl-images-amazon.com/images/I/51Qlsmk4oVL._AC_UL116_SR116,116_.jpg",
+          "price": {
+            "symbol": "₹",
+            "value": 199,
+            "currency": "INR",
+            "raw": "₹199.00"
+          }
+        },
+        {
+          "asin": "B0C1D7XQRX",
+          "title": "Printme Silicone Protective Case Cover for Oneplus Buds Z2 TWS, Anti Fall Anti Dust, with Hook (2023) (Earbuds Not Included) (Black)",
+          "link": "https://www.amazon.in/dp/B0C1D7XQRX",
+          "image": "https://images-eu.ssl-images-amazon.com/images/I/51bqY5NcDoL._AC_UL116_SR116,116_.jpg",
+          "price": {
+            "symbol": "₹",
+            "value": 235,
+            "currency": "INR",
+            "raw": "₹235.00"
+          }
+        }
+      ]
+    },
+    "sponsored_products": [
+      {
+        "title": "BlueRigger 8K HDMI 2.1 Cable (3FT, 8K 60Hz HDR, 4K 120Hz, High Speed 48Gbps with Ethernet, eARC, 3D, HDCP 2.3) - Compatible with PS5, Xbox, Roku, Apple TV, Switch, PC",
+        "asin": "B00GG59HU2",
+        "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MzIxMjcyMjM1ODg2MDM3OjE3MDczMjc4NjM6c3BfZGV0YWlsMjozMDAwMzA5NDU2Nzc5MzI6Ojo6&url=%2Fdp%2FB00GG59HU2%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB00GG59HU2%26pd_rd_w%3DRjNTq%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3DJA08DE1TEYQF52TJ4S6D%26pd_rd_wg%3D7g7aY%26pd_rd_r%3De6a6cd71-7c62-4b37-b4e4-cc491f503636%26s%3Delectronics%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "image": "https://m.media-amazon.com/images/I/419vjZHvBUL._AC_SR160,160_.jpg",
+        "rating": 4.5,
+        "ratings_total": 33217,
+        "is_prime": true,
+        "price": {
+          "symbol": "₹",
+          "value": 448,
+          "currency": "INR",
+          "raw": "₹448"
+        }
+      },
+      {
+        "title": "pTron Newly Launched Bassbuds Duo Pro TWS Earbuds, TruTalk AI-ENC Calls, 38H Playtime, Deep Bass, 50ms Movie/Music Modes, In-Ear Bluetooth 5.3 Headphones with HD Mic,Fast Type-C Charging & IPX5(Black)",
+        "asin": "B0CNZDWH82",
+        "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MzIxMjcyMjM1ODg2MDM3OjE3MDczMjc4NjM6c3BfZGV0YWlsMjozMDAxMjU2NjE5ODQxMzI6Ojo6&url=%2Fdp%2FB0CNZDWH82%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB0CNZDWH82%26pd_rd_w%3DRjNTq%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3DJA08DE1TEYQF52TJ4S6D%26pd_rd_wg%3D7g7aY%26pd_rd_r%3De6a6cd71-7c62-4b37-b4e4-cc491f503636%26s%3Delectronics%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "image": "https://m.media-amazon.com/images/I/41cIH5QdNLL._AC_SR160,160_.jpg",
+        "rating": 5,
+        "ratings_total": 22,
+        "is_prime": true,
+        "price": {
+          "symbol": "₹",
+          "value": 899,
+          "currency": "INR",
+          "raw": "₹899"
+        }
+      },
+      {
+        "title": "Foxsky 80 cm (32 inches) HD Ready LED TV 32FSN (Black)",
+        "asin": "B08QX2J8HV",
+        "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MzIxMjcyMjM1ODg2MDM3OjE3MDczMjc4NjM6c3BfZGV0YWlsMjozMDAxMjc1MDAwNzA2MzI6Ojo6&url=%2Fdp%2FB08QX2J8HV%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB08QX2J8HV%26pd_rd_w%3DRjNTq%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3DJA08DE1TEYQF52TJ4S6D%26pd_rd_wg%3D7g7aY%26pd_rd_r%3De6a6cd71-7c62-4b37-b4e4-cc491f503636%26s%3Delectronics%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "image": "https://m.media-amazon.com/images/I/41pfG30a9aL._AC_SR160,160_.jpg",
+        "rating": 3,
+        "ratings_total": 800,
+        "is_prime": true,
+        "price": {
+          "symbol": "₹",
+          "value": 6699,
+          "currency": "INR",
+          "raw": "₹6,699"
+        }
+      },
+      {
+        "title": "pTron Bassbuds Wave ENC Bluetooth 5.3 Wireless Headphones, 40Hrs Total Playtime, TruTalk AI-ENC Calls, Movie Mode & Deep Bass, in-Ear TWS Earbuds, Touch Control & Type-C Fast Charging (Pearl Black)",
+        "asin": "B0CP5L2YGV",
+        "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MzIxMjcyMjM1ODg2MDM3OjE3MDczMjc4NjM6c3BfZGV0YWlsMjozMDAxMTkyODI4MTk0MzI6Ojo6&url=%2Fdp%2FB0CP5L2YGV%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB0CP5L2YGV%26pd_rd_w%3DRjNTq%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3DJA08DE1TEYQF52TJ4S6D%26pd_rd_wg%3D7g7aY%26pd_rd_r%3De6a6cd71-7c62-4b37-b4e4-cc491f503636%26s%3Delectronics%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "image": "https://m.media-amazon.com/images/I/31sdkgpjBcL._AC_SR160,160_.jpg",
+        "rating": 4,
+        "ratings_total": 1546,
+        "is_prime": true,
+        "price": {
+          "symbol": "₹",
+          "value": 799,
+          "currency": "INR",
+          "raw": "₹799"
+        }
+      },
+      {
+        "title": "Boult Audio Z60 Truly Wireless in Ear Earbuds with 60H Playtime, 4 Mics ENC Clear Calling, 50ms Low Latency Gaming, 13mm Bass Driver, Type-C Fast Charging, IPX5 Ear Buds Bluetooth 5.3 (Spring Green)",
+        "asin": "B0CBV22Q52",
+        "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MzIxMjcyMjM1ODg2MDM3OjE3MDczMjc4NjM6c3BfZGV0YWlsMjozMDAxMDY3ODMwNTMyMzI6Ojo6&url=%2Fdp%2FB0CBV22Q52%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB0CBV22Q52%26pd_rd_w%3DRjNTq%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3DJA08DE1TEYQF52TJ4S6D%26pd_rd_wg%3D7g7aY%26pd_rd_r%3De6a6cd71-7c62-4b37-b4e4-cc491f503636%26s%3Delectronics%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "image": "https://m.media-amazon.com/images/I/41xSJ1-H7qL._AC_SR160,160_.jpg",
+        "rating": 4,
+        "ratings_total": 2997,
+        "is_prime": true,
+        "price": {
+          "symbol": "₹",
+          "value": 1299,
+          "currency": "INR",
+          "raw": "₹1,299"
+        }
+      },
+      {
+        "title": "EarFun Air Pro 3 Noise Cancellation Earbuds 2023 VGP Gold Award, Qualcomm aptX Adaptive Sound, 6 Mics CVC 8.0 ENC Wireless Earbuds, Bluetooth 5.3 ANC Earbuds Wireless, Multipoint Connection(Black)",
+        "asin": "B0C5XDT46R",
+        "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MzIxMjcyMjM1ODg2MDM3OjE3MDczMjc4NjM6c3BfZGV0YWlsMjozMDAwNTMzNzAxMjYxMzI6Ojo6&url=%2Fdp%2FB0C5XDT46R%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0C5XDT46R%26pd_rd_w%3DRjNTq%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3DJA08DE1TEYQF52TJ4S6D%26pd_rd_wg%3D7g7aY%26pd_rd_r%3De6a6cd71-7c62-4b37-b4e4-cc491f503636%26s%3Delectronics%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "image": "https://m.media-amazon.com/images/I/31IUpZAySVL._AC_SR160,160_.jpg",
+        "rating": 4,
+        "ratings_total": 7702,
+        "is_prime": true,
+        "price": {
+          "symbol": "₹",
+          "value": 6299,
+          "currency": "INR",
+          "raw": "₹6,299"
+        }
+      },
+      {
+        "title": "PTron Newly Launched PlayBuds 2 TruTalk AI-ENC HD Calls in-Ear TWS Earbuds, 40ms Game/Music Modes, 45Hrs Playtime, Bluetooth 5.3 Headphones, Type-C Fast Charging & IPX5 Water-Resistant (Black)",
+        "asin": "B0C1PSBYKP",
+        "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MzIxMjcyMjM1ODg2MDM3OjE3MDczMjc4NjM6c3BfZGV0YWlsMjoyMDE2NDkyMzQxMTE5ODo6Ojo&url=%2Fdp%2FB0C1PSBYKP%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0C1PSBYKP%26pd_rd_w%3DRjNTq%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3DJA08DE1TEYQF52TJ4S6D%26pd_rd_wg%3D7g7aY%26pd_rd_r%3De6a6cd71-7c62-4b37-b4e4-cc491f503636%26s%3Delectronics%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "image": "https://m.media-amazon.com/images/I/41um4c0ej8L._AC_SR160,160_.jpg",
+        "rating": 4,
+        "ratings_total": 605,
+        "is_prime": true,
+        "price": {
+          "symbol": "₹",
+          "value": 1299,
+          "currency": "INR",
+          "raw": "₹1,299"
+        }
+      },
+      {
+        "title": "pTron Newly Launched Zenbuds X1 Quad Mic TWS Earbuds, TruTalk ENC Calls, 40H Playtime, In-Ear Sensor, 40ms Movie/Music Modes,Bluetooth 5.3 Headphones, TypeC Fast Charging & IPX5 Water Resistant(Green)",
+        "asin": "B0CNS4ZKL8",
+        "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MzIxMjcyMjM1ODg2MDM3OjE3MDczMjc4NjM6c3BfZGV0YWlsMjozMDAxMjg4MzE2MDc4MzI6Ojo6&url=%2Fdp%2FB0CNS4ZKL8%2Fref%3Dsspa_dk_detail_7%3Fpsc%3D1%26pd_rd_i%3DB0CNS4ZKL8%26pd_rd_w%3DRjNTq%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3DJA08DE1TEYQF52TJ4S6D%26pd_rd_wg%3D7g7aY%26pd_rd_r%3De6a6cd71-7c62-4b37-b4e4-cc491f503636%26s%3Delectronics%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "image": "https://m.media-amazon.com/images/I/41arEu9sRgL._AC_SR160,160_.jpg",
+        "rating": 4,
+        "ratings_total": 159,
+        "is_prime": true,
+        "price": {
+          "symbol": "₹",
+          "value": 999,
+          "currency": "INR",
+          "raw": "₹999"
+        }
+      },
+      {
+        "title": "Boult Audio YCharge Wireless in Ear Bluetooth Earphones with 12H Playtime, Type-C Fast Charging (20Min=100% Playtime), Pro+ Calling Mic, Made in India, 12mm Bass Drivers, IPX5 Neckband (Black)",
+        "asin": "B0BJ7D4TDR",
+        "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MzIxMjcyMjM1ODg2MDM3OjE3MDczMjc4NjM6c3BfZGV0YWlsMjoyMDA5Mzk1NTIyMjE5ODo6Ojo&url=%2Fdp%2FB0BJ7D4TDR%2Fref%3Dsspa_dk_detail_8%3Fpsc%3D1%26pd_rd_i%3DB0BJ7D4TDR%26pd_rd_w%3DRjNTq%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3DJA08DE1TEYQF52TJ4S6D%26pd_rd_wg%3D7g7aY%26pd_rd_r%3De6a6cd71-7c62-4b37-b4e4-cc491f503636%26s%3Delectronics%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "image": "https://m.media-amazon.com/images/I/31KZR6e1qTL._AC_SR160,160_.jpg",
+        "rating": 3.5,
+        "ratings_total": 2196,
+        "is_prime": true,
+        "price": {
+          "symbol": "₹",
+          "value": 699,
+          "currency": "INR",
+          "raw": "₹699"
+        }
+      },
+      {
+        "title": "pTron Newly Launched Bassbuds Razer TWS Earbuds, 40ms Gaming Low Latency, TruTalk AI-ENC Calls, Deep Bass, 45Hrs Playtime, HD Mic, in-Ear Bluetooth 5.3 Headphones, Type-C Fast Charging & IPX5 (Black)",
+        "asin": "B0CKJ2628R",
+        "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MzIxMjcyMjM1ODg2MDM3OjE3MDczMjc4NjM6c3BfZGV0YWlsMjozMDAxMDAwMzQyOTcwMzI6Ojo6&url=%2Fdp%2FB0CKJ2628R%2Fref%3Dsspa_dk_detail_9%3Fpsc%3D1%26pd_rd_i%3DB0CKJ2628R%26pd_rd_w%3DRjNTq%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3DJA08DE1TEYQF52TJ4S6D%26pd_rd_wg%3D7g7aY%26pd_rd_r%3De6a6cd71-7c62-4b37-b4e4-cc491f503636%26s%3Delectronics%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "image": "https://m.media-amazon.com/images/I/41-++1mLtPL._AC_SR160,160_.jpg",
+        "rating": 4,
+        "ratings_total": 737,
+        "is_prime": true,
+        "price": {
+          "symbol": "₹",
+          "value": 799,
+          "currency": "INR",
+          "raw": "₹799"
+        }
+      }
+    ]
+  }

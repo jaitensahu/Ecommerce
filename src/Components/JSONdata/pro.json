@@ -1,0 +1,635 @@
+{
+    "request_info": {
+      "success": true,
+      "topup_credits_remaining": 93,
+      "credits_used_this_request": 1
+    },
+    "request_parameters": {
+      "type": "product",
+      "amazon_domain": "amazon.in",
+      "asin": "B0CRH561RC"
+    },
+    "request_metadata": {
+      "created_at": "2024-02-07T17:44:22.344Z",
+      "processed_at": "2024-02-07T17:44:31.755Z",
+      "total_time_taken": 9.41,
+      "amazon_url": "https://www.amazon.in/dp/B0CRH561RC?th=1&psc=1"
+    },
+    "product": {
+      "title": "OnePlus Buds 3 Truly Wireless Bluetooth Earbuds with Upto 49dB Smart Adaptive Noise Cancellation,Hi-Res Sound Quality,Sliding Volume Control,10mins for 7Hours Fast Charging with Upto 44Hrs Playback Metallic Gray",
+      "search_alias": {
+        "title": "Electronics",
+        "value": "electronics"
+      },
+      "title_excluding_variant_name": "OnePlus Buds 3 Truly Wireless Bluetooth Earbuds with Upto 49dB Smart Adaptive Noise Cancellation,Hi-Res Sound Quality,Sliding Volume Control,10mins for 7Hours Fast Charging with Upto 44Hrs Playback",
+      "keywords": "OnePlus,Buds,3,Truly,Wireless,Bluetooth,Earbuds,with,Upto,49dB,Smart,Adaptive,Noise,Cancellation,Hi-Res,Sound,Quality,Sliding,Volume,Control,10mins,for,7Hours,Fast,Charging,with,Upto,44Hrs,Playback",
+      "keywords_list": [
+        "OnePlus",
+        "Buds",
+        "Truly",
+        "Wireless",
+        "Bluetooth",
+        "Earbuds",
+        "with",
+        "Upto",
+        "49dB",
+        "Smart",
+        "Adaptive",
+        "Noise",
+        "Cancellation",
+        "Hi-Res",
+        "Sound",
+        "Quality",
+        "Sliding",
+        "Volume",
+        "Control",
+        "10mins",
+        "7Hours",
+        "Fast",
+        "Charging",
+        "with",
+        "Upto",
+        "44Hrs",
+        "Playback"
+      ],
+      "asin": "B0CRH561RC",
+      "parent_asin": "B0CV3WH9TD",
+      "link": "https://www.amazon.in/OnePlus-Wireless-Bluetooth-Adaptive-Cancellation/dp/B0CRH561RC",
+      "brand": "OnePlus",
+      "variants": [
+        {
+          "asin": "B0CRH6CYS6",
+          "title": "Splendid Blue",
+          "is_current_product": false,
+          "link": "https://www.amazon.in/dp/B0CRH6CYS6?th=1&psc=1",
+          "dimensions": [
+            {
+              "name": "Colour",
+              "value": "Splendid Blue"
+            }
+          ],
+          "main_image": "https://m.media-amazon.com/images/I/51LxiMjx3XL._SL1500_.jpg",
+          "images": [
+            {
+              "variant": "MAIN",
+              "link": "https://m.media-amazon.com/images/I/51LxiMjx3XL._SL1500_.jpg"
+            },
+            {
+              "variant": "FRNT",
+              "link": "https://m.media-amazon.com/images/I/51QQMpbUoiL._SL1500_.jpg"
+            },
+            {
+              "variant": "SIDE",
+              "link": "https://m.media-amazon.com/images/I/51QQMpbUoiL._SL1500_.jpg"
+            },
+            {
+              "variant": "BACK",
+              "link": "https://m.media-amazon.com/images/I/51Tql8xO0dL._SL1500_.jpg"
+            },
+            {
+              "variant": "PT01",
+              "link": "https://m.media-amazon.com/images/I/61j2Oz3VBYL._SL1500_.jpg"
+            },
+            {
+              "variant": "PT02",
+              "link": "https://m.media-amazon.com/images/I/51FgsAH3FsL._SL1500_.jpg"
+            },
+            {
+              "variant": "PT03",
+              "link": "https://m.media-amazon.com/images/I/71fXx1fB5BL._SL1500_.jpg"
+            }
+          ],
+          "price": {
+            "symbol": "₹",
+            "value": 5499,
+            "currency": "INR",
+            "raw": "₹5,499.00"
+          }
+        },
+        {
+          "asin": "B0CRH561RC",
+          "title": "Metallic Gray",
+          "is_current_product": true,
+          "link": "https://www.amazon.in/dp/B0CRH561RC?th=1&psc=1",
+          "dimensions": [
+            {
+              "name": "Colour",
+              "value": "Metallic Gray"
+            }
+          ],
+          "main_image": "https://m.media-amazon.com/images/I/51h7CQTRJ1L._SL1500_.jpg",
+          "images": [
+            {
+              "variant": "MAIN",
+              "link": "https://m.media-amazon.com/images/I/51h7CQTRJ1L._SL1500_.jpg"
+            },
+            {
+              "variant": "FRNT",
+              "link": "https://m.media-amazon.com/images/I/518JdWAXvJL._SL1500_.jpg"
+            },
+            {
+              "variant": "SIDE",
+              "link": "https://m.media-amazon.com/images/I/51wXDR0u4uL._SL1500_.jpg"
+            },
+            {
+              "variant": "BACK",
+              "link": "https://m.media-amazon.com/images/I/41EpveO7uQL._SL1500_.jpg"
+            },
+            {
+              "variant": "PT01",
+              "link": "https://m.media-amazon.com/images/I/61XHerhMdaL._SL1500_.jpg"
+            },
+            {
+              "variant": "PT02",
+              "link": "https://m.media-amazon.com/images/I/51AAuZ-WOIL._SL1500_.jpg"
+            },
+            {
+              "variant": "PT03",
+              "link": "https://m.media-amazon.com/images/I/71fXx1fB5BL._SL1500_.jpg"
+            }
+          ],
+          "price": {
+            "symbol": "₹",
+            "value": 5499,
+            "currency": "INR",
+            "raw": "₹5,499.00"
+          }
+        }
+      ],
+      "variant_asins_flat": "B0CRH6CYS6,B0CRH561RC",
+      "energy_efficiency": {},
+      "categories": [
+        {
+          "name": "Electronics",
+          "link": "https://www.amazon.in/electronics/b/ref=dp_bc_aui_C_1?ie=UTF8&node=976419031",
+          "category_id": "976419031"
+        },
+        {
+          "name": "Headphones, Earbuds & Accessories",
+          "link": "https://www.amazon.in/b/ref=dp_bc_aui_C_2?ie=UTF8&node=29561348031",
+          "category_id": "29561348031"
+        },
+        {
+          "name": "Headphones",
+          "link": "https://www.amazon.in/headphones/b/ref=dp_bc_aui_C_3?ie=UTF8&node=1388921031",
+          "category_id": "1388921031"
+        },
+        {
+          "name": "In-Ear",
+          "link": "https://www.amazon.in/b/ref=dp_bc_aui_C_4?ie=UTF8&node=14146389031",
+          "category_id": "14146389031"
+        }
+      ],
+      "categories_flat": "Electronics > Headphones, Earbuds & Accessories > Headphones > In-Ear",
+      "a_plus_content": {
+        "has_a_plus_content": true,
+        "has_brand_story": false,
+        "third_party": false
+      },
+      "sub_title": {
+        "text": "Brand: OnePlus",
+        "link": "https://www.amazon.in/OnePlus/b/ref=bl_dp_s_web_13755902031?ie=UTF8&node=13755902031&field-lbr_brands_browse-bin=OnePlus"
+      },
+      "main_image": {
+        "link": "https://m.media-amazon.com/images/I/51h7CQTRJ1L.jpg"
+      },
+      "images": [
+        {
+          "link": "https://m.media-amazon.com/images/I/51h7CQTRJ1L._SL1500_.jpg",
+          "variant": "MAIN"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/I/518JdWAXvJL._SL1500_.jpg",
+          "variant": "FRNT"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/I/51wXDR0u4uL._SL1500_.jpg",
+          "variant": "SIDE"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/I/41EpveO7uQL._SL1500_.jpg",
+          "variant": "BACK"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/I/61XHerhMdaL._SL1500_.jpg",
+          "variant": "PT01"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/I/51AAuZ-WOIL._SL1500_.jpg",
+          "variant": "PT02"
+        },
+        {
+          "link": "https://m.media-amazon.com/images/I/71fXx1fB5BL._SL1500_.jpg",
+          "variant": "PT03"
+        }
+      ],
+      "images_count": 7,
+      "images_flat": "https://m.media-amazon.com/images/I/51h7CQTRJ1L._SL1500_.jpg,https://m.media-amazon.com/images/I/518JdWAXvJL._SL1500_.jpg,https://m.media-amazon.com/images/I/51wXDR0u4uL._SL1500_.jpg,https://m.media-amazon.com/images/I/41EpveO7uQL._SL1500_.jpg,https://m.media-amazon.com/images/I/61XHerhMdaL._SL1500_.jpg,https://m.media-amazon.com/images/I/51AAuZ-WOIL._SL1500_.jpg,https://m.media-amazon.com/images/I/71fXx1fB5BL._SL1500_.jpg",
+      "is_bundle": false,
+      "feature_bullets": [
+        "[Best-in-class Sound Quality]: 10.4mm+6mm dynamic dual driver, LHDC5.0 Bluetooth CODEC and high resolution certification makes the product best in its sound quality with deeper bass, delicate treble and clear vocals",
+        "[Sliding Volume Control]: Slide on the surface of touch area of buds to adjust the volume.Sliding up increases the volume, while sliding down decreases the volume",
+        "[49dB Adaptive Nosie Cancellation]: Advanced noise-cancelling technology,coupled with a high-performance chip,elevates the depth of noise cancellation upto 49dB.This reduces noise and blocks out chaos and allows users to enjoy music immersively",
+        "[Dual Connection]:It can simulatenously connect to 2 devices such as Andriod/iOS/Windows smartphone, tablets or computers allowing for quick and seamless device switching",
+        "[Battery Life]:It has 10mins of Fast Charging that give 7 hours of Playback time with total music playback upto 44 hours with ANC Off||[IP55 rating]: With IP55 Dust and water resistance there is no fear of sweating or rain"
+      ],
+      "feature_bullets_count": 5,
+      "feature_bullets_flat": "[Battery Life]:It has 10mins of Fast Charging that give 7 hours of Playback time with total music playback upto 44 hours with ANC Off||[IP55 rating]: With IP55 Dust and water resistance there is no fear of sweating or rain. [Dual Connection]:It can simulatenously connect to 2 devices such as Andriod/iOS/Windows smartphone, tablets or computers allowing for quick and seamless device switching. [49dB Adaptive Nosie Cancellation]: Advanced noise-cancelling technology,coupled with a high-performance chip,elevates the depth of noise cancellation upto 49dB.This reduces noise and blocks out chaos and allows users to enjoy music immersively. [Sliding Volume Control]: Slide on the surface of touch area of buds to adjust the volume.Sliding up increases the volume, while sliding down decreases the volume. [Best-in-class Sound Quality]: 10.4mm+6mm dynamic dual driver, LHDC5.0 Bluetooth CODEC and high resolution certification makes the product best in its sound quality with deeper bass, delicate treble and clear vocals.",
+      "attributes": [
+        {
+          "name": "Brand",
+          "value": "OnePlus"
+        },
+        {
+          "name": "Model Name",
+          "value": "Buds"
+        },
+        {
+          "name": "Colour",
+          "value": "Metallic Gray"
+        },
+        {
+          "name": "Form Factor",
+          "value": "In Ear"
+        },
+        {
+          "name": "Connectivity Technology",
+          "value": "Wireless"
+        }
+      ],
+      "buybox_winner": {
+        "maximum_order_quantity": {
+          "value": 30,
+          "hard_maximum": true
+        },
+        "is_prime": false,
+        "is_prime_exclusive_deal": false,
+        "is_amazon_fresh": false,
+        "condition": {
+          "is_new": true
+        },
+        "availability": {
+          "type": "in_stock",
+          "raw": "In stock",
+          "dispatch_days": 1
+        },
+        "fulfillment": {
+          "type": "2p",
+          "standard_delivery": {
+            "date": "Sunday, 11 February",
+            "name": "FREE"
+          },
+          "fastest_delivery": {
+            "date": "Saturday, 10 February",
+            "name": "Or fastest delivery Saturday, 10 February. Order within 11 hrs. Details"
+          },
+          "is_sold_by_amazon": false,
+          "is_fulfilled_by_amazon": true,
+          "is_fulfilled_by_third_party": false,
+          "is_sold_by_third_party": true,
+          "third_party_seller": {
+            "name": "Cocoblu Retail",
+            "link": "https://www.amazon.in/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A1WYWER0W24N8S&asin=B0CRH561RC&ref_=dp_merchant_link&isAmazonFulfilled=1",
+            "id": "A1WYWER0W24N8S"
+          }
+        },
+        "price": {
+          "symbol": "₹",
+          "value": 5499,
+          "currency": "INR",
+          "raw": "₹5,499.00"
+        },
+        "rrp": {
+          "symbol": "₹",
+          "value": 6499,
+          "currency": "INR",
+          "raw": "₹6,499"
+        },
+        "shipping": {
+          "raw": "FREE"
+        }
+      },
+      "specifications": [
+        {
+          "name": "Product Dimensions",
+          "value": "‎3.2 x 0.6 x 2.5 cm; 50 Grams"
+        },
+        {
+          "name": "Item model number",
+          "value": "‎E509A"
+        },
+        {
+          "name": "Connectivity technologies",
+          "value": "‎Wireless"
+        },
+        {
+          "name": "Special features",
+          "value": "‎Buds 3 True Wireless in Ear Earbuds with Sliding Volume Control and 49dB ANC"
+        },
+        {
+          "name": "Other display features",
+          "value": "‎Wireless"
+        },
+        {
+          "name": "Colour",
+          "value": "‎Metallic Gray"
+        },
+        {
+          "name": "Whats in the box",
+          "value": "‎Ear Cushions"
+        },
+        {
+          "name": "Manufacturer",
+          "value": "‎OnePlus"
+        },
+        {
+          "name": "Country of Origin",
+          "value": "‎China"
+        },
+        {
+          "name": "Item Weight",
+          "value": "‎50 g"
+        },
+        {
+          "name": "ASIN",
+          "value": "B0CRH561RC"
+        },
+        {
+          "name": "Best Sellers Rank",
+          "value": "#10 in Electronics (See Top 100 in Electronics) #3 in In-Ear Headphones"
+        },
+        {
+          "name": "Date First Available",
+          "value": "22 January 2024"
+        },
+        {
+          "name": "Manufacturer",
+          "value": "OnePlus, ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD. 18C02, 18C03, 18C04 AND 18C05, SHUM YIP TERRA BUILDING, BINHEAVENUE NORTH, FULIAN DISTRICT, SHENZHEN, GUANGDONG, P.R.CHINA 518000"
+        },
+        {
+          "name": "Packer",
+          "value": "ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD. 18C02, 18C03, 18C04 AND 18C05, SHUM YIP TERRA BUILDING, BINHEAVENUE NORTH, FULIAN DISTRICT, SHENZHEN, GUANGDONG, P.R.CHINA 518000"
+        },
+        {
+          "name": "Importer",
+          "value": "ONEPLUS TECHNOLOGY INDIA PRIVATE LIMITED. UB CITY, 6TH FLOOR, UB CITY 24, UB CITY, VITTAL MALLYA RD, D'SOUZA LAYOUT ASHOK NAGAR, BENGALURU, BENGALURU URBAN, KARNATAKA 560001"
+        },
+        {
+          "name": "Item Dimensions LxWxH",
+          "value": "32 x 6 x 25 Millimeters"
+        },
+        {
+          "name": "Net Quantity",
+          "value": "1 Count"
+        },
+        {
+          "name": "Generic Name",
+          "value": "Wireless in Ear Earbuds"
+        },
+        {
+          "name": "Brand",
+          "value": "OnePlus"
+        },
+        {
+          "name": "Model Name",
+          "value": "Buds"
+        },
+        {
+          "name": "Colour",
+          "value": "Metallic Gray"
+        },
+        {
+          "name": "Form Factor",
+          "value": "In Ear"
+        },
+        {
+          "name": "Connectivity Technology",
+          "value": "Wireless"
+        }
+      ],
+      "specifications_flat": "Connectivity Technology: Wireless. Form Factor: In Ear. Colour: Metallic Gray. Model Name: Buds. Brand: OnePlus. Generic Name: Wireless in Ear Earbuds. Net Quantity: 1 Count. Item Dimensions LxWxH: 32 x 6 x 25 Millimeters. Importer: ONEPLUS TECHNOLOGY INDIA PRIVATE LIMITED. UB CITY, 6TH FLOOR, UB CITY 24, UB CITY, VITTAL MALLYA RD, D'SOUZA LAYOUT ASHOK NAGAR, BENGALURU, BENGALURU URBAN, KARNATAKA 560001. Packer: ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD. 18C02, 18C03, 18C04 AND 18C05, SHUM YIP TERRA BUILDING, BINHEAVENUE NORTH, FULIAN DISTRICT, SHENZHEN, GUANGDONG, P.R.CHINA 518000. Manufacturer: OnePlus, ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD. 18C02, 18C03, 18C04 AND 18C05, SHUM YIP TERRA BUILDING, BINHEAVENUE NORTH, FULIAN DISTRICT, SHENZHEN, GUANGDONG, P.R.CHINA 518000. Date First Available: 22 January 2024. Best Sellers Rank: #10 in Electronics (See Top 100 in Electronics) #3 in In-Ear Headphones. ASIN: B0CRH561RC. Item Weight: ‎50 g. Country of Origin: ‎China. Manufacturer: ‎OnePlus. Whats in the box: ‎Ear Cushions. Colour: ‎Metallic Gray. Other display features: ‎Wireless. Special features: ‎Buds 3 True Wireless in Ear Earbuds with Sliding Volume Control and 49dB ANC. Connectivity technologies: ‎Wireless. Item model number: ‎E509A. Product Dimensions: ‎3.2 x 0.6 x 2.5 cm; 50 Grams.",
+      "bestsellers_rank": [
+        {
+          "category": "Electronics",
+          "rank": 10,
+          "link": "https://www.amazon.in/gp/bestsellers/electronics/ref=pd_zg_ts_electronics"
+        },
+        {
+          "category": "In-Ear Headphones",
+          "rank": 3,
+          "link": "https://www.amazon.in/gp/bestsellers/electronics/14146389031/ref=pd_zg_hrsr_electronics"
+        }
+      ],
+      "color": "Metallic Gray",
+      "manufacturer": "OnePlus, ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD. 18C02, 18C03, 18C04 AND 18C05, SHUM YIP TERRA BUILDING, BINHEAVENUE NORTH, FULIAN DISTRICT, SHENZHEN, GUANGDONG, P.R.CHINA 518000",
+      "weight": "‎50 g",
+      "first_available": {
+        "raw": "22 January 2024",
+        "utc": "2024-01-22T00:00:00.000Z"
+      },
+      "dimensions": "‎3.2 x 0.6 x 2.5 cm; 50 Grams",
+      "model_number": "‎E509A",
+      "bestsellers_rank_flat": "Category: Electronics | Rank: 10, Category: In-Ear Headphones | Rank: 3",
+      "whats_in_the_box": [
+        "Ear Cushions"
+      ]
+    },
+    "frequently_bought_together": {
+      "total_price": {
+        "symbol": "₹",
+        "value": 5933,
+        "currency": "INR",
+        "raw": "₹5,933.00"
+      },
+      "products": [
+        {
+          "asin": "B0CRH561RC",
+          "title": "OnePlus Buds 3 Truly Wireless Bluetooth Earbuds with Upto 49dB Smart Adaptive Noise Cancellation,Hi-Res Sound Quality,Sliding Volume Control,10mins for 7Hours Fast Charging with Upto 44Hrs Playback",
+          "link": "https://www.amazon.in/dp/B0CRH561RC",
+          "image": "https://images-eu.ssl-images-amazon.com/images/I/51h7CQTRJ1L._AC_UL116_SR116,116_.jpg",
+          "price": {
+            "symbol": "₹",
+            "value": 5499,
+            "currency": "INR",
+            "raw": "₹5,499.00"
+          }
+        },
+        {
+          "asin": "B09WHN1FCG",
+          "title": "Sounce Silicone Protective Case Cover for OnePlus Buds Z2 TWS, Anti Fall Anti Dust, with Hook Earphone Case [Case Cover only] (Black)",
+          "link": "https://www.amazon.in/dp/B09WHN1FCG",
+          "image": "https://images-eu.ssl-images-amazon.com/images/I/51Qlsmk4oVL._AC_UL116_SR116,116_.jpg",
+          "price": {
+            "symbol": "₹",
+            "value": 199,
+            "currency": "INR",
+            "raw": "₹199.00"
+          }
+        },
+        {
+          "asin": "B0C1D7XQRX",
+          "title": "Printme Silicone Protective Case Cover for Oneplus Buds Z2 TWS, Anti Fall Anti Dust, with Hook (2023) (Earbuds Not Included) (Black)",
+          "link": "https://www.amazon.in/dp/B0C1D7XQRX",
+          "image": "https://images-eu.ssl-images-amazon.com/images/I/51bqY5NcDoL._AC_UL116_SR116,116_.jpg",
+          "price": {
+            "symbol": "₹",
+            "value": 235,
+            "currency": "INR",
+            "raw": "₹235.00"
+          }
+        }
+      ]
+    },
+    "sponsored_products": [
+      {
+        "title": "BlueRigger 8K HDMI 2.1 Cable (3FT, 8K 60Hz HDR, 4K 120Hz, High Speed 48Gbps with Ethernet, eARC, 3D, HDCP 2.3) - Compatible with PS5, Xbox, Roku, Apple TV, Switch, PC",
+        "asin": "B00GG59HU2",
+        "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MzIxMjcyMjM1ODg2MDM3OjE3MDczMjc4NjM6c3BfZGV0YWlsMjozMDAwMzA5NDU2Nzc5MzI6Ojo6&url=%2Fdp%2FB00GG59HU2%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB00GG59HU2%26pd_rd_w%3DRjNTq%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3DJA08DE1TEYQF52TJ4S6D%26pd_rd_wg%3D7g7aY%26pd_rd_r%3De6a6cd71-7c62-4b37-b4e4-cc491f503636%26s%3Delectronics%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "image": "https://m.media-amazon.com/images/I/419vjZHvBUL._AC_SR160,160_.jpg",
+        "rating": 4.5,
+        "ratings_total": 33217,
+        "is_prime": true,
+        "price": {
+          "symbol": "₹",
+          "value": 448,
+          "currency": "INR",
+          "raw": "₹448"
+        }
+      },
+      {
+        "title": "pTron Newly Launched Bassbuds Duo Pro TWS Earbuds, TruTalk AI-ENC Calls, 38H Playtime, Deep Bass, 50ms Movie/Music Modes, In-Ear Bluetooth 5.3 Headphones with HD Mic,Fast Type-C Charging & IPX5(Black)",
+        "asin": "B0CNZDWH82",
+        "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MzIxMjcyMjM1ODg2MDM3OjE3MDczMjc4NjM6c3BfZGV0YWlsMjozMDAxMjU2NjE5ODQxMzI6Ojo6&url=%2Fdp%2FB0CNZDWH82%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB0CNZDWH82%26pd_rd_w%3DRjNTq%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3DJA08DE1TEYQF52TJ4S6D%26pd_rd_wg%3D7g7aY%26pd_rd_r%3De6a6cd71-7c62-4b37-b4e4-cc491f503636%26s%3Delectronics%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "image": "https://m.media-amazon.com/images/I/41cIH5QdNLL._AC_SR160,160_.jpg",
+        "rating": 5,
+        "ratings_total": 22,
+        "is_prime": true,
+        "price": {
+          "symbol": "₹",
+          "value": 899,
+          "currency": "INR",
+          "raw": "₹899"
+        }
+      },
+      {
+        "title": "Foxsky 80 cm (32 inches) HD Ready LED TV 32FSN (Black)",
+        "asin": "B08QX2J8HV",
+        "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MzIxMjcyMjM1ODg2MDM3OjE3MDczMjc4NjM6c3BfZGV0YWlsMjozMDAxMjc1MDAwNzA2MzI6Ojo6&url=%2Fdp%2FB08QX2J8HV%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB08QX2J8HV%26pd_rd_w%3DRjNTq%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3DJA08DE1TEYQF52TJ4S6D%26pd_rd_wg%3D7g7aY%26pd_rd_r%3De6a6cd71-7c62-4b37-b4e4-cc491f503636%26s%3Delectronics%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "image": "https://m.media-amazon.com/images/I/41pfG30a9aL._AC_SR160,160_.jpg",
+        "rating": 3,
+        "ratings_total": 800,
+        "is_prime": true,
+        "price": {
+          "symbol": "₹",
+          "value": 6699,
+          "currency": "INR",
+          "raw": "₹6,699"
+        }
+      },
+      {
+        "title": "pTron Bassbuds Wave ENC Bluetooth 5.3 Wireless Headphones, 40Hrs Total Playtime, TruTalk AI-ENC Calls, Movie Mode & Deep Bass, in-Ear TWS Earbuds, Touch Control & Type-C Fast Charging (Pearl Black)",
+        "asin": "B0CP5L2YGV",
+        "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MzIxMjcyMjM1ODg2MDM3OjE3MDczMjc4NjM6c3BfZGV0YWlsMjozMDAxMTkyODI4MTk0MzI6Ojo6&url=%2Fdp%2FB0CP5L2YGV%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB0CP5L2YGV%26pd_rd_w%3DRjNTq%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3DJA08DE1TEYQF52TJ4S6D%26pd_rd_wg%3D7g7aY%26pd_rd_r%3De6a6cd71-7c62-4b37-b4e4-cc491f503636%26s%3Delectronics%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "image": "https://m.media-amazon.com/images/I/31sdkgpjBcL._AC_SR160,160_.jpg",
+        "rating": 4,
+        "ratings_total": 1546,
+        "is_prime": true,
+        "price": {
+          "symbol": "₹",
+          "value": 799,
+          "currency": "INR",
+          "raw": "₹799"
+        }
+      },
+      {
+        "title": "Boult Audio Z60 Truly Wireless in Ear Earbuds with 60H Playtime, 4 Mics ENC Clear Calling, 50ms Low Latency Gaming, 13mm Bass Driver, Type-C Fast Charging, IPX5 Ear Buds Bluetooth 5.3 (Spring Green)",
+        "asin": "B0CBV22Q52",
+        "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MzIxMjcyMjM1ODg2MDM3OjE3MDczMjc4NjM6c3BfZGV0YWlsMjozMDAxMDY3ODMwNTMyMzI6Ojo6&url=%2Fdp%2FB0CBV22Q52%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB0CBV22Q52%26pd_rd_w%3DRjNTq%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3DJA08DE1TEYQF52TJ4S6D%26pd_rd_wg%3D7g7aY%26pd_rd_r%3De6a6cd71-7c62-4b37-b4e4-cc491f503636%26s%3Delectronics%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "image": "https://m.media-amazon.com/images/I/41xSJ1-H7qL._AC_SR160,160_.jpg",
+        "rating": 4,
+        "ratings_total": 2997,
+        "is_prime": true,
+        "price": {
+          "symbol": "₹",
+          "value": 1299,
+          "currency": "INR",
+          "raw": "₹1,299"
+        }
+      },
+      {
+        "title": "EarFun Air Pro 3 Noise Cancellation Earbuds 2023 VGP Gold Award, Qualcomm aptX Adaptive Sound, 6 Mics CVC 8.0 ENC Wireless Earbuds, Bluetooth 5.3 ANC Earbuds Wireless, Multipoint Connection(Black)",
+        "asin": "B0C5XDT46R",
+        "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MzIxMjcyMjM1ODg2MDM3OjE3MDczMjc4NjM6c3BfZGV0YWlsMjozMDAwNTMzNzAxMjYxMzI6Ojo6&url=%2Fdp%2FB0C5XDT46R%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0C5XDT46R%26pd_rd_w%3DRjNTq%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3DJA08DE1TEYQF52TJ4S6D%26pd_rd_wg%3D7g7aY%26pd_rd_r%3De6a6cd71-7c62-4b37-b4e4-cc491f503636%26s%3Delectronics%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "image": "https://m.media-amazon.com/images/I/31IUpZAySVL._AC_SR160,160_.jpg",
+        "rating": 4,
+        "ratings_total": 7702,
+        "is_prime": true,
+        "price": {
+          "symbol": "₹",
+          "value": 6299,
+          "currency": "INR",
+          "raw": "₹6,299"
+        }
+      },
+      {
+        "title": "PTron Newly Launched PlayBuds 2 TruTalk AI-ENC HD Calls in-Ear TWS Earbuds, 40ms Game/Music Modes, 45Hrs Playtime, Bluetooth 5.3 Headphones, Type-C Fast Charging & IPX5 Water-Resistant (Black)",
+        "asin": "B0C1PSBYKP",
+        "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MzIxMjcyMjM1ODg2MDM3OjE3MDczMjc4NjM6c3BfZGV0YWlsMjoyMDE2NDkyMzQxMTE5ODo6Ojo&url=%2Fdp%2FB0C1PSBYKP%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0C1PSBYKP%26pd_rd_w%3DRjNTq%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3DJA08DE1TEYQF52TJ4S6D%26pd_rd_wg%3D7g7aY%26pd_rd_r%3De6a6cd71-7c62-4b37-b4e4-cc491f503636%26s%3Delectronics%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "image": "https://m.media-amazon.com/images/I/41um4c0ej8L._AC_SR160,160_.jpg",
+        "rating": 4,
+        "ratings_total": 605,
+        "is_prime": true,
+        "price": {
+          "symbol": "₹",
+          "value": 1299,
+          "currency": "INR",
+          "raw": "₹1,299"
+        }
+      },
+      {
+        "title": "pTron Newly Launched Zenbuds X1 Quad Mic TWS Earbuds, TruTalk ENC Calls, 40H Playtime, In-Ear Sensor, 40ms Movie/Music Modes,Bluetooth 5.3 Headphones, TypeC Fast Charging & IPX5 Water Resistant(Green)",
+        "asin": "B0CNS4ZKL8",
+        "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MzIxMjcyMjM1ODg2MDM3OjE3MDczMjc4NjM6c3BfZGV0YWlsMjozMDAxMjg4MzE2MDc4MzI6Ojo6&url=%2Fdp%2FB0CNS4ZKL8%2Fref%3Dsspa_dk_detail_7%3Fpsc%3D1%26pd_rd_i%3DB0CNS4ZKL8%26pd_rd_w%3DRjNTq%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3DJA08DE1TEYQF52TJ4S6D%26pd_rd_wg%3D7g7aY%26pd_rd_r%3De6a6cd71-7c62-4b37-b4e4-cc491f503636%26s%3Delectronics%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "image": "https://m.media-amazon.com/images/I/41arEu9sRgL._AC_SR160,160_.jpg",
+        "rating": 4,
+        "ratings_total": 159,
+        "is_prime": true,
+        "price": {
+          "symbol": "₹",
+          "value": 999,
+          "currency": "INR",
+          "raw": "₹999"
+        }
+      },
+      {
+        "title": "Boult Audio YCharge Wireless in Ear Bluetooth Earphones with 12H Playtime, Type-C Fast Charging (20Min=100% Playtime), Pro+ Calling Mic, Made in India, 12mm Bass Drivers, IPX5 Neckband (Black)",
+        "asin": "B0BJ7D4TDR",
+        "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MzIxMjcyMjM1ODg2MDM3OjE3MDczMjc4NjM6c3BfZGV0YWlsMjoyMDA5Mzk1NTIyMjE5ODo6Ojo&url=%2Fdp%2FB0BJ7D4TDR%2Fref%3Dsspa_dk_detail_8%3Fpsc%3D1%26pd_rd_i%3DB0BJ7D4TDR%26pd_rd_w%3DRjNTq%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3DJA08DE1TEYQF52TJ4S6D%26pd_rd_wg%3D7g7aY%26pd_rd_r%3De6a6cd71-7c62-4b37-b4e4-cc491f503636%26s%3Delectronics%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "image": "https://m.media-amazon.com/images/I/31KZR6e1qTL._AC_SR160,160_.jpg",
+        "rating": 3.5,
+        "ratings_total": 2196,
+        "is_prime": true,
+        "price": {
+          "symbol": "₹",
+          "value": 699,
+          "currency": "INR",
+          "raw": "₹699"
+        }
+      },
+      {
+        "title": "pTron Newly Launched Bassbuds Razer TWS Earbuds, 40ms Gaming Low Latency, TruTalk AI-ENC Calls, Deep Bass, 45Hrs Playtime, HD Mic, in-Ear Bluetooth 5.3 Headphones, Type-C Fast Charging & IPX5 (Black)",
+        "asin": "B0CKJ2628R",
+        "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MzIxMjcyMjM1ODg2MDM3OjE3MDczMjc4NjM6c3BfZGV0YWlsMjozMDAxMDAwMzQyOTcwMzI6Ojo6&url=%2Fdp%2FB0CKJ2628R%2Fref%3Dsspa_dk_detail_9%3Fpsc%3D1%26pd_rd_i%3DB0CKJ2628R%26pd_rd_w%3DRjNTq%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3DJA08DE1TEYQF52TJ4S6D%26pd_rd_wg%3D7g7aY%26pd_rd_r%3De6a6cd71-7c62-4b37-b4e4-cc491f503636%26s%3Delectronics%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "image": "https://m.media-amazon.com/images/I/41-++1mLtPL._AC_SR160,160_.jpg",
+        "rating": 4,
+        "ratings_total": 737,
+        "is_prime": true,
+        "price": {
+          "symbol": "₹",
+          "value": 799,
+          "currency": "INR",
+          "raw": "₹799"
+        }
+      }
+    ]
+  }
