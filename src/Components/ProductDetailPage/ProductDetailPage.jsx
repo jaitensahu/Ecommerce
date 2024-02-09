@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-const productAPIKey = import.meta.env.MODE === 'production' ? process.env.AMAZON_KEY : import.meta.env.VITE_SOME_KEY;
+const productAPIKey = import.meta.env.MODE === 'development' ? process.env.AMAZON_KEY : import.meta.env.VITE_SOME_KEY;
 import Skeleton from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
 // const 
@@ -19,7 +19,8 @@ import axios from "axios";
 
 
 const ProductDetailPage = () => {
-  console.log(productAPIKey);
+
+  console.log(productAPIKey, import.meta.env.MODE);
   console.log("Rendering Product Detail Page");
   const [isLoading, setIsLoading] = useState(true);
   const settings = {

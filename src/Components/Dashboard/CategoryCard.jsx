@@ -18,6 +18,7 @@ const CategoryCard = () => {
       buyNowLink: "",
     },
   ];
+  console.log(import.meta.env.MODE);
     return (
       <div className="flex flex-wrap gap-5 px-5 py-[50px]">
             {categories.map((category,idx) => {
