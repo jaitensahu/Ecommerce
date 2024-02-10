@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
-const productAPIKey = import.meta.env.MODE !== 'development' ? import.meta.env.VITE_SOME_KEY : process.env.AMAZON_KEY
+const productAPIKey = import.meta.env.MODE === 'production' ?  process.env.VITE_AMAZON_KEY : import.meta.env.VITE_SOME_KEY
 
 const initialState = {
     categories: {},
