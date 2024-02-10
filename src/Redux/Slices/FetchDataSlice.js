@@ -10,7 +10,9 @@ const initialState = {
     isProductCategoryLoading: true,
 };
 
+
 export const FetchDataSlice = createSlice({
+    
     name: "Fetch_And_Update_States",
     initialState,
     reducers: {

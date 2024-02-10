@@ -19,7 +19,7 @@ import axios from "axios";
 
 
 const ProductDetailPage = () => {
-
+  console.log(import.meta.env);
   console.log(productAPIKey, import.meta.env.MODE);
   console.log("Rendering Product Detail Page");
   const [isLoading, setIsLoading] = useState(true);
