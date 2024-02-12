@@ -23,6 +23,7 @@ import {
   setWishListOpen,
 } from "../../Redux/Slices/HeaderSlice";
 import { signUpFunction } from "../../Redux/Slices/AuthSlice";
+import logo from '../../assets/Logo.png'
 
 const Header = () => {
   const navigation = [
@@ -71,24 +72,24 @@ const Header = () => {
                 <div className="flex flex-shrink-0 items-center">
                   <a href="/">
                     <img
-                      className="h-8 w-auto"
-                      src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                      className="h-8 w-auto scale-125"
+                      src={logo}
                       alt="Your Company"
                     />
                   </a>
                 </div>
               </div>
 
-              <div className="icon  justify-between w-[35%] min-[628px]:flex max-[628px]:hidden">
-                <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 gap-4">
+              <div className="icon  justify-between w-[35%] min-[628px]:flex max-[628px]:hidden text-white">
+                <div className="absolute inset-y-0 right-0 flex text-white items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 gap-4">
                   <button
                     onClick={() => dispatch(setIsOpen(!isOpen))}
                     type="button"
-                    className="relative rounded-full p-1 text-black hover:text-red-600 focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2 "
+                    className="relative rounded-full p-1 text-white "
                   >
                     <span className="absolute -inset-1.5" />
                     <span className="sr-only">View notifications</span>
-                    <IoIosSearch className="h-6 w-6" aria-hidden="true" />
+                    <IoIosSearch className="h-8 w-8" aria-hidden="true" />
                   </button>
                   <Drawer
                     open={isOpen}
@@ -98,13 +99,13 @@ const Header = () => {
                     style={{ height: "180px" }}
                   >
                     <div className="h-5">
-                      <div className="searchBar flex max-w-[70%] mx-auto items-center justify-between border-2 rounded-sm mt-8">
+                      <div className="searchBar flex max-w-[70%] mx-auto items-center justify-between border-2 rounded-[50px] px-3 mt-8">
                         <input
                           type="text"
                           placeholder="Enter Your Keywords"
-                          className="w-full outline-none"
+                          className="w-full outline-none bg-transparent px-2"
                         />
-                        <IoIosSearch className="h-6 w-6" />
+                        <IoIosSearch className="h-8 w-8" />
                       </div>
                     </div>
                   </Drawer>
@@ -112,18 +113,17 @@ const Header = () => {
                   <button
                     onClick={() => dispatch(setWishListOpen(!isWishListOpen))}
                     type="button"
-                    className="relative rounded-full p-1 text-black hover:text-red-600 focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2 "
+                    className="relative rounded-full p-1 focus:outline-none focus:ring-2  focus:ring-offset-2 "
                   >
                     <span className="absolute -inset-1.5" />
                     <span className="sr-only">View notifications</span>
-                    <HeartIcon className="h-6 w-6" aria-hidden="true" />
+                    <HeartIcon className="h-8 w-8" aria-hidden="true" />
                   </button>
                   <Drawer
                     open={isWishListOpen}
                     onClose={() => dispatch(setWishListOpen(!isWishListOpen))}
                     direction="right"
                     className="bla bla bla"
-                    // style={{ height: "180px" }}
                   >
                     <div className="h-5">
                       <div className="searchBar flex max-w-[70%] mx-auto items-center justify-between border-2 rounded-sm mt-8">
@@ -132,24 +132,24 @@ const Header = () => {
                           placeholder="Enter Your Keywords"
                           className="w-full outline-none"
                         />
-                        <IoIosSearch className="h-6 w-6" />
+                        <IoIosSearch className="h-8 w-8" />
                       </div>
                     </div>
                   </Drawer>
                   <Link
                     to="/cart"
                     type="button"
-                    className="relative rounded-full p-1 text-black hover:text-red-600 focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2 "
+                    className="relative rounded-full p-1"
                   >
                     <span className="absolute -inset-1.5" />
                     <span className="sr-only">View notifications</span>
-                    <ShoppingCartIcon className="h-6 w-6" aria-hidden="true" />
+                    <ShoppingCartIcon className="h-8 w-8 text-white" aria-hidden="true" />
                   </Link>
                   {/* Profile dropdown */}
                   {isLogin ? (
                     <Menu as="div" className="relative ml-3">
                       <div>
-                        <Menu.Button className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                        <Menu.Button className="relative flex rounded-full text-sm ">
                           <span className="absolute -inset-1.5" />
                           <span className="sr-only">Open user menu</span>
                           <img
@@ -216,11 +216,11 @@ const Header = () => {
                   ) : (
                     <Menu as="div" className="relative ml-3">
                       <div>
-                        <Menu.Button className="relative flex rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2 ">
+                        <Menu.Button className="relative flex rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-0.5 ">
                           <span className="absolute -inset-1.5" />
                           <span className="sr-only">Open user menu</span>
                           <UserCircleIcon
-                            className="h-6 w-6"
+                            className="h-8 w-8"
                             aria-hidden="true"
                           />
                         </Menu.Button>
@@ -271,22 +271,22 @@ const Header = () => {
                   {isDark ? (
                     <button
                       type="button"
-                      className="relative rounded-full  p-1 text-black hover:text-red-600 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-red-600"
+                      className="relative rounded-full  p-1 text-white"
                     >
                       <span className="absolute -inset-1.5" />
                       <span className="sr-only">View notifications</span>
 
-                      <SunIcon className="h-6 w-6" aria-hidden="true" />
+                      <SunIcon className="h-8 w-8" aria-hidden="true" />
                     </button>
                   ) : (
                     <button
                       type="button"
-                      className="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                      className="relative rounded-full p-1 text-gray-400 hover:text-white  "
                     >
                       <span className="absolute -inset-1.5" />
-                      <span className="sr-only">View notifications</span>
+                      <span className="sr-only">Moon Icon</span>
 
-                      <MoonIcon className="h-6 w-6" aria-hidden="true" />
+                      <MoonIcon className="h-8 w-8" aria-hidden="true" />
                     </button>
                   )}
                 </div>
@@ -299,9 +299,9 @@ const Header = () => {
                     <span className="absolute -inset-0.5" />
                     <span className="sr-only">Open main menu</span>
                     {open ? (
-                      <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
+                      <XMarkIcon className="block h-8 w-8" aria-hidden="true" />
                     ) : (
-                      <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
+                      <Bars3Icon className="block h-8 w-8" aria-hidden="true" />
                     )}
                   </Disclosure.Button>
                 </div>

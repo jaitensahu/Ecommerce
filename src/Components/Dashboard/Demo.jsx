@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
-import { FiMousePointer } from "react-icons/fi";
 import { CCarousel, CCarouselItem, CImage } from "@coreui/react";
 
 const Carasoul = () => {
@@ -14,7 +13,6 @@ const HALF_ROTATION_RANGE = 35 / 2;
 
 const TiltCard = () => {
   const ref = useRef(null);
-
   const [translateX, setTranslateX] = useState(0);
   const [translateY, setTranslateY] = useState(0);
 
@@ -29,8 +27,8 @@ const TiltCard = () => {
     const mouseX = (e.clientX - rect.left) * ROTATION_RANGE;
     const mouseY = (e.clientY - rect.top) * ROTATION_RANGE;
 
-    const rY = mouseX / width - HALF_ROTATION_RANGE;
-    const rX = (mouseY / height - HALF_ROTATION_RANGE) * -1;
+    const rX = - mouseX / width - HALF_ROTATION_RANGE;
+    const rY = (mouseY / height - HALF_ROTATION_RANGE) * -1;
 
     setTranslateX(rX);
     setTranslateY(rY);
@@ -58,7 +56,7 @@ const TiltCard = () => {
         }}
         className="relative  rounded-xl "
       >
-        <CCarousel controls dark transition="slide" className="w-[100%] cursor-pointer">
+        <CCarousel controls dark transition="slide" className=" absolute right-0 w-[80%] cursor-pointer">
           <CCarouselItem>
             <CImage
               style={{
@@ -88,7 +86,7 @@ const TiltCard = () => {
                 transform: "translateZ(75px)",
                 transformStyle: "preserve-3d",
               }}
-              className="drop-shadow-[0_35px_35px_rgba(140,150,151,1)] d-block w-100"
+              className="d-block w-100"
               src="https://pngimg.com/uploads/iphone_12/iphone_12_PNG23.png"
               alt="slide 3"
             />

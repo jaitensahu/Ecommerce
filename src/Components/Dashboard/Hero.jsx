@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, { memo, useEffect, useState } from "react";
 import "animate.css";
 import { CCarousel, CCarouselItem, CImage } from "@coreui/react";
-import Carasoul from "../../Demo";
+import Carasoul from "./Demo";
+import FadeInUpText from "./Text";
 
 const Hero = () => {
+  console.log("hero rendered");
   let backgroundColor = ["red", "blue", "green"];
   let [idx, setIdx] = useState(0);
   let images = [
@@ -21,11 +23,27 @@ const Hero = () => {
       return prev + 1;
     });
   }
-
+  let textData2 = ["Unleash Savings on Smart Devices:", "Upgrade Your Shoe Game:", "Happiness Delivered:" ]
+  let textData = [`Explore Our Phone Collections`, "Explore New Arrivals for Every Occasion", "Three Times a Day"]
+  let [heroText, setHeroText] = useState(textData[0])
+  let [heroText2, setHeroText2] = useState(textData2[0])
+let i=1;
   useEffect(() => {
-    setInterval(() => {
-      change();
-    }, 8000);
+    let timer = setInterval(() => {
+      // change();
+      setHeroText("Jaiten Sahu hasdb hd bdbdh jhdsj jshdjd")
+      if(i>2){
+        i=0;
+      }
+      console.log(i);
+      setHeroText(()=>textData[i])
+      setHeroText2(()=>textData2[i++])
+
+    }, 5400);
+
+    return ()=>{  
+      console.log("Unmount");
+    }
   }, []);
 
   return (
@@ -35,41 +53,17 @@ const Hero = () => {
           animation[idx]
         }`}
       >
-        <div className="w-[100%] mx-auto flex items-center">
-          <div className="proDetails w-1/2">
-            <h1>Product Details</h1>
+        <div className="w-[90%] mx-auto flex-col-reverse flex min-[630px]:flex min-[630px]:flex-row items-center">
+          <div className="proDetails w-1/2 ">
+            <h1 className="text-3xl text-white whitespace-nowrap"><FadeInUpText key ={heroText} text={heroText} text2={heroText2}/></h1>
           </div>
-          <div className="w-1/2">
+          <div className="w-[100%] min-[630px]:w-[55%] absolute right-[-10%]">
             <Carasoul />
           </div>
-
-          {/* <CCarousel controls dark transition="slide" className="w-[50%]">
-            <CCarouselItem>
-              <CImage
-                className="d-block w-100"
-                src="https://ongpng.com/wp-content/uploads/2023/03/4.Fire-Boltt-Ninja_1500x1500.png"
-                alt="slide 1"
-              />
-            </CCarouselItem>
-            <CCarouselItem>
-              <CImage
-                className="d-block w-100"
-                src="https://similux-furniture.myshopify.com/cdn/shop/files/s-1-img_0ce6ce17-ca7f-4f9d-b717-b784ae18a48e_1440x.png?v=1677815549"
-                alt="slide 2"
-              />
-            </CCarouselItem>
-            <CCarouselItem>
-              <CImage
-                className="d-block w-100"
-                src="https://pngimg.com/uploads/iphone_12/iphone_12_PNG23.png"
-                alt="slide 3"
-              />
-            </CCarouselItem>
-          </CCarousel> */}
         </div>
       </div>
     </div>
   );
 };
 
-export default Hero;
+export default memo(Hero);

@@ -8,15 +8,13 @@ import CategoryList from './CategoryList'
 const Dashboard = () => {
   return (
     <div>
-      {/* <Example /> */}
-      {/* <SideMenuForFilter /> */}
       <Hero />
       <CategoryCard />
-      <ShiftingCountdown />
+      {/* <ShiftingCountdown /> */}
       <div className="flex mt-10 max-w-[94%] mx-auto">
         <CategoryList />
         <div className="w-[85%] pt-[35px]">
-        <SingleProductCard />
+        {/* <SingleProductCard /> */}
         </div>
       </div>
     </div>
